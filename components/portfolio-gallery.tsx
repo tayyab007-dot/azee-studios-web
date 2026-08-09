@@ -35,6 +35,8 @@ export function PortfolioGallery() {
     window.addEventListener('setPortfolioTab', handleSetTab);
     return () => window.removeEventListener('setPortfolioTab', handleSetTab);
   }, []);
+
+  useEffect(() => {
     async function fetchAllPortfolio() {
       try {
         const res = await fetch("/api/portfolio");
