@@ -8,13 +8,15 @@ export function Footer() {
       <div className="container mx-auto px-4 py-16">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12">
           {/* Column 1: Brand */}
-          <div className="lg:col-span-1 flex flex-col gap-4">
-            <Link href="/" className="inline-block mb-2">
-              <img src="/logo.png" alt="Azee Studios" className="h-8 md:h-10 w-auto" />
-            </Link>
-            <p className="text-sm text-muted-foreground">
-              End-to-end solutions in Development, Design, and Growth Media.
-            </p>
+          <div className="lg:col-span-1 flex flex-col gap-6">
+            <div className="flex items-center gap-4">
+              <Link href="/" className="shrink-0">
+                <img src="/logo.png" alt="Azee Studios" className="h-10 md:h-12 w-auto" />
+              </Link>
+              <p className="text-sm text-muted-foreground leading-snug">
+                End-to-end solutions in Development, Design, and Growth Media.
+              </p>
+            </div>
             <div className="flex gap-4 mt-2">
               {/* Social Icons Placeholders */}
               <Link href="https://t.me/azeestudios" target="_blank" rel="noopener noreferrer" className="w-10 h-10 rounded-full bg-background border border-border flex items-center justify-center text-muted-foreground hover:text-foreground hover:border-accent transition-colors">

@@ -64,9 +64,9 @@ export function Niches() {
               key={niche.num}
               initial={{ opacity: 0, y: 30 }}
               whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true, margin: "-100px" }}
+              viewport={{ once: true, amount: 0.1 }}
               transition={{ duration: 0.5, delay: index * 0.1 }}
-              className="flex flex-col md:flex-row bg-card rounded-[2rem] border border-border/50 overflow-hidden hover:border-accent/30 transition-colors duration-500"
+              className="flex flex-col-reverse md:flex-row bg-card rounded-[2rem] border border-border/50 overflow-hidden hover:border-accent/30 transition-colors duration-500"
             >
 
               <div className="p-10 md:p-14 flex flex-col justify-center w-full md:w-[45%] relative">
