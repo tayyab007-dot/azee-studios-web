@@ -97,7 +97,7 @@ export function Services() {
               className="group relative h-full animate-float z-10 hover:z-20"
             >
               {/* Contained gradient glow strictly BEHIND the card (doesn't bleed into gaps) */}
-              <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[85%] h-[70%] bg-gradient-to-br from-[#ff1e56] to-purple-600 opacity-80 dark:opacity-40 group-hover:opacity-100 dark:group-hover:opacity-70 transition-all duration-700 blur-[35px] rounded-full -rotate-12 -z-10 pointer-events-none" />
+              <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[85%] h-[70%] bg-gradient-to-br from-[#ff1e56] to-purple-600 opacity-20 dark:opacity-30 group-hover:opacity-40 dark:group-hover:opacity-50 transition-all duration-700 blur-[35px] rounded-full -rotate-12 -z-10 pointer-events-none" />
 
               {/* The Foggy Frosted Glass Card */}
               <div className="relative rounded-[2rem] p-6 transition-all hover:shadow-2xl overflow-hidden flex flex-col h-full border border-black/60 dark:border-white/30 hover:border-black/80 dark:hover:border-white/60 bg-white/30 dark:bg-white/10 backdrop-blur-[60px] backdrop-saturate-150 shadow-[0_8px_32px_rgba(0,0,0,0.1)] dark:shadow-[0_8px_32px_rgba(0,0,0,0.25)]">
