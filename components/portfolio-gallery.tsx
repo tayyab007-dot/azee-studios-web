@@ -107,10 +107,10 @@ export function PortfolioGallery() {
               key={category.id}
               onClick={() => setActiveTab(category.id)}
               style={{ WebkitTapHighlightColor: 'transparent' }}
-              className={`relative px-8 py-3 rounded-xl text-sm font-bold transition-all duration-300 border ${
+              className={`relative px-8 py-3 rounded-xl text-sm font-bold transition-all duration-300 border overflow-hidden outline-none focus:outline-none ring-0 [-webkit-tap-highlight-color:transparent] select-none ${
                 activeTab === category.id
-                  ? "border-accent text-accent bg-accent/10"
-                  : "border-border text-muted-foreground bg-card"
+                  ? "border-accent text-white bg-accent/20"
+                  : "border-border text-muted-foreground hover:text-white bg-card"
               }`}
             >
               {category.label}
