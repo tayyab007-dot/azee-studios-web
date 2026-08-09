@@ -122,10 +122,10 @@ export function PortfolioGallery() {
             <p className="text-muted-foreground font-medium">Loading Portfolio...</p>
           </div>
         ) : (
-          /* Grid Layout */
+          /* Flex Layout for Centering */
           <motion.div
             layout
-            className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6"
+            className="flex flex-wrap justify-center gap-6 w-full"
           >
             <AnimatePresence mode="popLayout">
               {visibleAssets.map((asset) => (
@@ -136,7 +136,7 @@ export function PortfolioGallery() {
                   animate={{ opacity: 1, scale: 1 }}
                   exit={{ opacity: 0, scale: 0.9 }}
                   transition={{ duration: 0.2 }}
-                  className="group relative break-inside-avoid rounded-2xl overflow-hidden bg-card border border-black/20 dark:border-white/20 hover:border-accent dark:hover:border-accent shadow-md transition-all duration-300"
+                  className="w-full sm:w-[calc(50%-0.75rem)] lg:w-[calc(33.333%-1rem)] group relative break-inside-avoid rounded-2xl overflow-hidden bg-card border border-black/20 dark:border-white/20 hover:border-accent dark:hover:border-accent shadow-md transition-all duration-300"
                 >
                   <div className="relative w-full overflow-hidden bg-muted/20 aspect-[4/3] sm:aspect-square md:aspect-[4/3]">
                     {asset.type === "video" ? (
