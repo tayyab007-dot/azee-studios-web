@@ -106,10 +106,11 @@ export function PortfolioGallery() {
             <button
               key={category.id}
               onClick={() => setActiveTab(category.id)}
-              className={`relative px-8 py-3 rounded-xl text-sm font-bold transition-all duration-300 border overflow-hidden outline-none focus:outline-none [-webkit-tap-highlight-color:transparent] ${
+              style={{ WebkitTapHighlightColor: 'transparent' }}
+              className={`relative px-8 py-3 rounded-xl text-sm font-bold transition-all duration-300 border ${
                 activeTab === category.id
-                  ? "border-accent text-white bg-accent/10 shadow-[0_0_15px_rgba(255,30,86,0.5)] ring-0"
-                  : "border-border text-muted-foreground hover:text-accent bg-card ring-0"
+                  ? "border-accent text-accent bg-accent/10"
+                  : "border-border text-muted-foreground bg-card"
               }`}
             >
               {category.label}
