@@ -113,7 +113,7 @@ export function Niches() {
         </div>
 
 
-        <div className="mt-20 flex flex-col md:flex-row items-center justify-between bg-card/50 p-8 rounded-3xl border border-border/50">
+        <div className="mt-20 flex flex-col md:flex-row items-start md:items-center justify-between bg-card/50 p-8 rounded-3xl border border-border/50">
           <div className="flex items-center gap-4 mb-6 md:mb-0">
             <div className="w-12 h-12 rounded-full bg-accent/10 flex items-center justify-center flex-shrink-0 text-accent">
               <Shield className="w-6 h-6" />
@@ -123,8 +123,8 @@ export function Niches() {
               <p className="text-sm text-muted-foreground">We respect every client&apos;s privacy and NDA. Excellence you can trust. Results you can see.</p>
             </div>
           </div>
-          <div className="text-right flex flex-col items-end">
-            <div className="flex items-center justify-end mb-2">
+          <div className="text-left md:text-right flex flex-col items-start md:items-end w-full md:w-auto mt-4 md:mt-0 pt-6 md:pt-0 border-t md:border-0 border-border/50">
+            <div className="flex items-center justify-start md:justify-end mb-2">
               <img src="/logo.png" alt="Azee Studios" className="h-6 w-auto" />
             </div>
             <p className="text-sm text-muted-foreground">We Create <span className="text-accent font-medium">Visual Stories</span> That Connect.</p>
