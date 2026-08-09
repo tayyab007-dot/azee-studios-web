@@ -111,7 +111,7 @@ export function Navbar() {
             animate={{ opacity: 1 }}
             exit={{ opacity: 0 }}
             transition={{ duration: 0.2 }}
-            className="fixed inset-0 z-[999] bg-background/95 supports-[backdrop-filter]:bg-background/50 supports-[backdrop-filter]:backdrop-blur-3xl text-foreground flex flex-col p-6 pb-28 lg:hidden w-screen h-[100vh] overflow-y-auto overscroll-contain"
+            className="fixed inset-0 z-[999] bg-background/95 backdrop-blur-3xl text-foreground flex flex-col p-6 pb-28 lg:hidden w-screen h-[100vh] overflow-y-auto overscroll-contain"
           >
             <div className="flex items-center justify-between mb-8 pb-4 border-b border-white/10 shrink-0">
               <img src="/logo.png" alt="Azee Studios" className="h-8 w-auto" />
