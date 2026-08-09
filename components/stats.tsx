@@ -24,7 +24,7 @@ const stats = [
 
 function AnimatedNumber({ value, from = 0 }: { value: number, from?: number }) {
   const ref = useRef(null);
-  const isInView = useInView(ref, { once: true, margin: "-100px" });
+  const isInView = useInView(ref, { once: true, amount: 0.1 });
   const count = useMotionValue(from);
   const rounded = useTransform(count, (latest) => Math.round(latest));
 

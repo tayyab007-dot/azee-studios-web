@@ -43,7 +43,7 @@ const services = [
     title: "Marketing & Strategy",
     description: "Data-driven digital marketing and social media strategies to scale your brand.",
     icon: TrendingUp,
-    image: "/services/marketing and strategy.png",
+    image: "/services/marketing strategy.png",
     tags: ["Digital Marketing", "Social Media Strategy", "Growth"],
   },
 ];
