@@ -108,8 +108,8 @@ export function PortfolioGallery() {
               onClick={() => setActiveTab(category.id)}
               className={`relative px-8 py-3 rounded-xl text-sm font-bold transition-all duration-300 border overflow-hidden outline-none focus:outline-none [-webkit-tap-highlight-color:transparent] ${
                 activeTab === category.id
-                  ? "border-accent text-white bg-accent/10 drop-shadow-[0_0_15px_rgba(255,30,86,0.5)]"
-                  : "border-border text-muted-foreground hover:text-accent bg-card"
+                  ? "border-accent text-white bg-accent/10 shadow-[0_0_15px_rgba(255,30,86,0.5)] ring-0"
+                  : "border-border text-muted-foreground hover:text-accent bg-card ring-0"
               }`}
             >
               {category.label}
@@ -142,14 +142,14 @@ export function PortfolioGallery() {
                 >
                   <div className="relative w-full overflow-hidden bg-muted/20 aspect-[4/3] sm:aspect-square md:aspect-[4/3]">
                     {asset.type === "video" ? (
-                      <div className="relative">
+                      <div className="relative w-full h-full">
                         <video
                           src={asset.url}
                           autoPlay
                           loop
                           muted
                           playsInline
-                          className="w-full h-auto object-cover group-hover:scale-105 transition-transform duration-500 ease-in-out"
+                          className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500 ease-in-out"
                         />
                         <div className="absolute top-4 right-4 bg-black/50 backdrop-blur-md p-2 rounded-full text-white/90">
                           <Play className="w-4 h-4 fill-current" />
@@ -163,7 +163,7 @@ export function PortfolioGallery() {
                         onError={(e) => {
                           (e.target as HTMLImageElement).src = FALLBACK_IMAGE;
                         }}
-                        className="w-full h-auto object-cover group-hover:scale-105 transition-transform duration-500 ease-in-out"
+                        className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500 ease-in-out"
                       />
                     )}
                     {/* Hover Overlay */}
