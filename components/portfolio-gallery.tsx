@@ -107,10 +107,10 @@ export function PortfolioGallery() {
               key={category.id}
               onClick={() => setActiveTab(category.id)}
               style={{ borderRadius: '9999px', WebkitTapHighlightColor: 'transparent', outline: 'none' }}
-              className={`relative px-8 py-3 rounded-full text-sm font-bold transition-all duration-300 border overflow-hidden outline-none focus:outline-none ring-0 select-none ${
+              className={`relative px-8 py-3 rounded-full text-sm font-bold transition-all duration-300 border-0 overflow-hidden outline-none focus:outline-none focus-visible:outline-none focus-visible:ring-0 ring-0 select-none ${
                 activeTab === category.id
-                  ? "border-accent text-white bg-accent/20"
-                  : "border-border text-muted-foreground hover:text-white bg-card"
+                  ? "bg-accent text-white"
+                  : "bg-muted text-muted-foreground hover:bg-accent/20 hover:text-white"
               }`}
             >
               {category.label}
