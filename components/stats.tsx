@@ -24,7 +24,7 @@ const stats = [
 
 function AnimatedNumber({ value, from = 0 }: { value: number, from?: number }) {
   const ref = useRef(null);
-  const isInView = useInView(ref, { once: true, amount: 0.1 });
+  const isInView = useInView(ref, { once: true });
   const count = useMotionValue(from);
   const rounded = useTransform(count, (latest) => Math.round(latest));
 
@@ -35,7 +35,7 @@ function AnimatedNumber({ value, from = 0 }: { value: number, from?: number }) {
     }
   }, [count, isInView, value]);
 
-  return <motion.span ref={ref}>{rounded}</motion.span>;
+  return <motion.span ref={ref} className="inline-block min-w-[1ch]">{rounded}</motion.span>;
 }
 
 export function Stats() {
