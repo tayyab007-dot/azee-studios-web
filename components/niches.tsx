@@ -89,7 +89,7 @@ export function Niches() {
               </div>
 
 
-              <div className="w-full md:w-[55%] relative min-h-[300px] md:min-h-0 bg-muted/20 flex items-center justify-center overflow-hidden">
+              <div className="w-full md:w-[55%] relative aspect-video md:aspect-auto md:min-h-0 bg-muted/20 flex items-center justify-center overflow-hidden">
                 {niche.videoUrl ? (
                   <video
                     src={niche.videoUrl}

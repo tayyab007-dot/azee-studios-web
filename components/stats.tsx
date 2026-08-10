@@ -42,7 +42,7 @@ export function Stats() {
   return (
     <section className="py-12 border-y border-border/50 bg-card/20 backdrop-blur-sm relative z-10">
       <div className="container mx-auto px-4">
-        <div className="grid grid-cols-2 md:grid-cols-3 gap-8 md:gap-4 divide-x-0 md:divide-x divide-border">
+        <div className="grid grid-cols-3 gap-4 md:gap-4 divide-x divide-border">
           {stats.map((stat, index) => (
             <motion.div
               key={index}
@@ -50,15 +50,13 @@ export function Stats() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 0.5, delay: index * 0.1 }}
-              className={`flex flex-col items-center justify-center text-center px-4 ${
-                index === 2 ? "col-span-2 md:col-span-1" : ""
-              }`}
+              className="flex flex-col items-center justify-center text-center px-2 md:px-4"
             >
               <stat.icon className="w-6 h-6 text-accent mb-4 opacity-80" />
-              <h4 className="text-4xl md:text-5xl font-extrabold text-gradient mb-2">
+              <h4 className="text-2xl md:text-5xl font-extrabold text-gradient mb-1 md:mb-2">
                 {stat.value()}
               </h4>
-              <p className="text-sm font-medium text-muted-foreground uppercase tracking-wider">
+              <p className="text-[10px] md:text-sm font-medium text-muted-foreground uppercase tracking-wider leading-tight">
                 {stat.label}
               </p>
             </motion.div>
