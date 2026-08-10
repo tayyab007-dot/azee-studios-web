@@ -120,8 +120,8 @@ export function Niches() {
             </div>
             <div className="flex flex-col gap-3">
               <div className="flex items-center gap-3 flex-wrap">
-                <h4 className="font-bold text-foreground text-lg">Your ideas are safe with us.</h4>
                 <img src="/logo.png" alt="Azee Studios" className="h-5 w-auto" />
+                <h4 className="font-bold text-foreground text-lg">Your ideas are safe with us.</h4>
               </div>
               <p className="text-sm text-muted-foreground max-w-xl">We respect every client&apos;s privacy and NDA. Excellence you can trust. Results you can see.</p>
             </div>

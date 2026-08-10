@@ -106,8 +106,8 @@ export function PortfolioGallery() {
             <button
               key={category.id}
               onClick={() => setActiveTab(category.id)}
-              style={{ WebkitTapHighlightColor: 'transparent' }}
-              className={`relative px-8 py-3 rounded-xl text-sm font-bold transition-all duration-300 border overflow-hidden outline-none focus:outline-none ring-0 [-webkit-tap-highlight-color:transparent] select-none ${
+              style={{ borderRadius: '9999px', WebkitTapHighlightColor: 'transparent', outline: 'none' }}
+              className={`relative px-8 py-3 rounded-full text-sm font-bold transition-all duration-300 border overflow-hidden outline-none focus:outline-none ring-0 select-none ${
                 activeTab === category.id
                   ? "border-accent text-white bg-accent/20"
                   : "border-border text-muted-foreground hover:text-white bg-card"
