@@ -50,7 +50,9 @@ export function Stats() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 0.5, delay: index * 0.1 }}
-              className="flex flex-col items-center justify-center text-center px-4"
+              className={`flex flex-col items-center justify-center text-center px-4 ${
+                index === 2 ? "col-span-2 md:col-span-1" : ""
+              }`}
             >
               <stat.icon className="w-6 h-6 text-accent mb-4 opacity-80" />
               <h4 className="text-4xl md:text-5xl font-extrabold text-gradient mb-2">
