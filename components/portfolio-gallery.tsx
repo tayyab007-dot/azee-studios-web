@@ -109,7 +109,7 @@ export function PortfolioGallery() {
               style={{ borderRadius: '9999px', WebkitTapHighlightColor: 'transparent', outline: 'none' }}
               className={`relative px-8 py-3 rounded-full text-sm font-bold transition-all duration-300 border-0 overflow-hidden outline-none focus:outline-none focus-visible:outline-none focus-visible:ring-0 ring-0 select-none ${
                 activeTab === category.id
-                  ? "bg-accent text-white"
+                  ? "bg-[#ff1e56] text-white"
                   : "bg-muted text-muted-foreground hover:bg-accent/20 hover:text-white"
               }`}
             >
