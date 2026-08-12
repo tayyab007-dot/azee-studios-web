@@ -7,7 +7,7 @@ import Link from "next/link";
 export function Hero() {
   return (
     /* pt-28 adjusts top spacing cleanly right below the navbar */
-    <section className="relative w-full overflow-hidden pt-28 md:pt-32 pb-4 md:pb-8 text-center">
+    <section className="relative w-full overflow-hidden pt-28 md:pt-32 pb-0 md:pb-4 text-center">
       {/* Background Glow */}
       <div className="absolute inset-0 z-0 pointer-events-none overflow-hidden">
         <div className="absolute left-1/2 -translate-x-1/2 top-[-20%] w-[150vw] h-[1000px] bg-[radial-gradient(ellipse_at_center,rgba(255,30,86,0.12)_0%,transparent_50%)]" />
@@ -22,7 +22,7 @@ export function Hero() {
           className="inline-flex items-center gap-2.5 text-xs md:text-sm font-bold tracking-[0.25em] md:tracking-[0.3em] uppercase text-accent dark:text-white mb-6 drop-shadow-[0_0_15px_rgba(255,30,86,0.6)] dark:drop-shadow-[0_0_15px_rgba(255,255,255,0.3)]"
         >
           <span className="animate-pulse text-accent">●</span>
-          <span>SOFTWARE STUDIO · SINCE 2022</span>
+          <span>DIGITAL STUDIO · SINCE 2022</span>
         </motion.div>
 
         <motion.div
@@ -32,7 +32,7 @@ export function Hero() {
           className="max-w-4xl mb-6"
         >
           <h1 className="text-4xl sm:text-5xl md:text-6xl xl:text-7xl font-black tracking-tight leading-[1.1] text-foreground">
-            Software Solutions
+            Digital Solutions
             <span className="block text-gradient">Built to Scale.</span>
           </h1>
         </motion.div>
@@ -50,7 +50,7 @@ export function Hero() {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5, delay: 0.3 }}
-          className="flex flex-col sm:flex-row items-center gap-4 mb-10 w-full sm:w-auto"
+          className="flex flex-col sm:flex-row items-center gap-4 mb-4 w-full sm:w-auto"
         >
           <Link
             href="#contact"
@@ -71,7 +71,7 @@ export function Hero() {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5, delay: 0.4 }}
-          className="flex flex-col sm:flex-row items-center gap-4 sm:gap-6 text-sm font-medium text-muted-foreground"
+          className="flex flex-col sm:flex-row items-center justify-center gap-4 sm:gap-6 text-sm font-medium text-muted-foreground w-full mb-0"
         >
           <div className="flex items-center gap-2">
             <CheckCircle2 className="w-5 h-5 text-accent" />
