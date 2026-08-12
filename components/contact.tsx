@@ -61,7 +61,7 @@ export function Contact() {
           <h2 className="text-2xl md:text-5xl font-bold tracking-tight mb-4">
             Let&apos;s Build <span className="text-gradient">Something Great</span>
           </h2>
-          <p className="text-muted-foreground">
+          <p className="text-muted-foreground text-sm md:text-base">
             Send us a message below or reach out directly through any of our social channels.
           </p>
         </div>

@@ -41,7 +41,7 @@ export function Hero() {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5, delay: 0.2 }}
-          className="max-w-2xl text-base md:text-xl text-muted-foreground mb-10"
+          className="max-w-2xl text-sm md:text-xl text-muted-foreground mb-10"
         >
           We design, build and ship digital products that drive real business impact. From idea to launch and beyond, we&apos;re your long-term technology partner.
         </motion.p>
@@ -133,7 +133,7 @@ export function Hero() {
 //           initial={{ opacity: 0, y: 20 }}
 //           animate={{ opacity: 1, y: 0 }}
 //           transition={{ duration: 0.5, delay: 0.2 }}
-//           className="max-w-2xl text-lg md:text-xl text-muted-foreground mb-10"
+//           className="max-w-2xl text-sm md:text-lg md:text-xl text-muted-foreground mb-10"
 //         >
 //           We design, build and ship digital products that drive real business impact. From idea to launch and beyond, we&apos;re your long-term technology partner.
 //         </motion.p>

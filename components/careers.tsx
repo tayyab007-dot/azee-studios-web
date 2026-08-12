@@ -8,7 +8,7 @@ export function Careers() {
         <h2 className="text-2xl md:text-5xl font-bold tracking-tight mb-6">
           Careers at Azee Studios
         </h2>
-        <p className="text-muted-foreground max-w-2xl mx-auto text-lg mb-12">
+        <p className="text-muted-foreground max-w-2xl mx-auto text-sm md:text-lg mb-12">
           We're constantly looking for visionary designers, engineers, and creatives to push the boundaries of digital experiences.
         </p>
         <div className="inline-flex items-center justify-center px-8 py-6 border border-border rounded-2xl bg-card text-muted-foreground shadow-[0_0_15px_rgba(255,30,86,0.1)]">

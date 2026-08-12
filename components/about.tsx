@@ -8,7 +8,7 @@ export function About() {
         <h2 className="text-2xl md:text-5xl font-bold tracking-tight mb-6">
           About Azee Studios
         </h2>
-        <p className="text-muted-foreground max-w-3xl mx-auto text-lg leading-relaxed">
+        <p className="text-muted-foreground max-w-3xl mx-auto text-sm md:text-lg leading-relaxed">
           We are a digital innovation studio specializing in high-performance web and app development, UI/UX systems, branding, and motion graphics. Our mission is to build bespoke digital assets that elevate your brand and drive results.
         </p>
       </div>

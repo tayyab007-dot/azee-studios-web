@@ -76,7 +76,7 @@ export function Services() {
             Everything you need to <br className="hidden md:block" />
             <span className="text-gradient inline-block mt-2 md:mt-4">build & ship</span>
           </h2>
-          <p className="text-lg text-muted-foreground">
+          <p className="text-sm md:text-lg text-muted-foreground">
             End-to-end development and design services for ambitious teams and startups. We bring complex digital concepts to life with technical speed and precision.
           </p>
         </div>

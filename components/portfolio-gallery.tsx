@@ -95,7 +95,7 @@ export function PortfolioGallery() {
           <h2 className="text-2xl md:text-5xl font-bold tracking-tight">
             Portfolio Gallery
           </h2>
-          <p className="text-muted-foreground max-w-2xl text-lg">
+          <p className="text-muted-foreground max-w-2xl text-sm md:text-lg">
             Explore our diverse range of creative work, from impactful logos and engaging posts to stunning motion graphics and memecoin projects.
           </p>
         </div>

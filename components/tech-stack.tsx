@@ -30,7 +30,7 @@ export function TechStack() {
           <h2 className="text-3xl md:text-4xl font-bold tracking-tight mb-4">
             Technologies We Work With
           </h2>
-          <p className="text-muted-foreground">
+          <p className="text-muted-foreground text-sm md:text-base">
             We embrace emerging technologies and industry-standard tools to provide smarter, faster, and more efficient digital solutions for our clients.
           </p>
         </div>

@@ -33,7 +33,7 @@ export function BrandsShowcase() {
           <h2 className="text-2xl md:text-5xl font-bold tracking-tight mb-4">
             Our <span className="text-gradient">Branding</span> Work
           </h2>
-          <p className="text-muted-foreground text-lg max-w-2xl mx-auto">
+          <p className="text-muted-foreground text-sm md:text-lg max-w-2xl mx-auto">
             A glimpse into the visual identities and creative directions we've crafted for ambitious brands worldwide.
           </p>
         </div>

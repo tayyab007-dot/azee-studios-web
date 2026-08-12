@@ -49,7 +49,7 @@ export function Blog() {
           <h2 className="text-2xl md:text-5xl font-bold tracking-tight mb-4">
             Our <span className="text-gradient">Blog</span>
           </h2>
-          <p className="text-muted-foreground">
+          <p className="text-muted-foreground text-sm md:text-base">
             Read the latest news, design trends, and engineering deep-dives from our team.
           </p>
         </div>

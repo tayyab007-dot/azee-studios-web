@@ -60,7 +60,7 @@ export function Niches() {
           <h2 className="text-2xl md:text-5xl lg:text-6xl font-bold tracking-tight mb-6 max-w-4xl mx-auto leading-tight mt-2">
             Crafting Digital Experiences <br className="hidden md:block" /> Across <span className="text-accent">Every Niche.</span>
           </h2>
-          <p className="text-muted-foreground text-lg max-w-3xl mx-auto text-balance">
+          <p className="text-muted-foreground text-sm md:text-lg max-w-3xl mx-auto text-balance">
             Due to NDA agreements, we are unable to showcase our previous client web projects. However, here&apos;s a glimpse of the types of websites we design and develop.
           </p>
         </div>
