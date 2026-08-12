@@ -78,8 +78,10 @@ export function Niches() {
             >
 
               <div className="p-6 md:p-14 flex flex-col justify-center w-full md:w-[45%] relative">
-                <span className="text-accent font-bold text-2xl md:text-4xl mb-3 md:mb-4">{niche.num}</span>
-                <div className="text-3xl md:text-4xl mb-4 md:mb-6 opacity-80">{niche.icon}</div>
+                <div className="flex items-center gap-3 mb-4 md:mb-6">
+                  <span className="text-accent font-bold text-2xl md:text-4xl">{niche.num}</span>
+                  <div className="text-3xl md:text-4xl opacity-80">{niche.icon}</div>
+                </div>
                 <h3 className="text-2xl md:text-4xl font-bold mb-2 md:mb-3">{niche.title}</h3>
                 <p className="text-accent font-medium mb-4 md:mb-6 text-base md:text-lg">{niche.tagline}</p>
                 <p className="text-muted-foreground leading-relaxed text-sm md:text-lg mb-6 md:mb-8">{niche.description}</p>
@@ -120,11 +122,11 @@ export function Niches() {
           ))}
         </div>
 
-        <div className="mt-12 text-center text-muted-foreground text-xl md:text-2xl font-medium tracking-wide">
+        <div className="mt-6 text-center text-muted-foreground text-xl md:text-2xl font-medium tracking-wide">
           and more...
         </div>
 
-        <div className="mt-20 flex flex-col md:flex-row items-start md:items-center justify-between bg-card/50 p-8 rounded-3xl border border-border/50 gap-6 md:gap-0">
+        <div className="mt-8 flex flex-col md:flex-row items-start md:items-center justify-between bg-card/50 p-8 rounded-3xl border border-border/50 gap-6 md:gap-0">
           <div className="flex items-start gap-5">
             <div className="flex items-center justify-center flex-shrink-0 mt-1">
               <img src="/logo.png" alt="Azee Studios" className="h-8 md:h-10 w-auto" />
