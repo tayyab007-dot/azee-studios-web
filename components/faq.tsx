@@ -86,7 +86,7 @@ export function FAQ() {
   };
 
   return (
-    <section id="faq" className="py-16 md:py-24 relative bg-background">
+    <section id="faq" className="py-8 md:py-12 relative bg-background">
       <div className="container mx-auto px-4 max-w-4xl">
         {/* Section Header */}
         <div className="flex flex-col items-center mb-16 text-center">

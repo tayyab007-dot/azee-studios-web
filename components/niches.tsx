@@ -48,7 +48,7 @@ const niches = [
 
 export function Niches() {
   return (
-    <section id="niches" className="py-24 relative overflow-hidden bg-background">
+    <section id="niches" className="py-12 relative overflow-hidden bg-background">
       <div className="container mx-auto px-4 max-w-6xl">
 
         <div className="mb-20 text-center relative flex flex-col items-center">
@@ -107,7 +107,11 @@ export function Niches() {
                     loop
                     muted
                     playsInline
-                    className="absolute inset-0 w-full h-full object-cover scale-[1.02]"
+                    className={`absolute inset-0 w-full h-full object-cover scale-[1.02] ${
+                      niche.videoUrl.includes('statue') || niche.videoUrl.includes('hero')
+                        ? 'object-[center_top]'
+                        : 'object-center'
+                    }`}
                   />
                 ) : (
                   <div className="absolute inset-0 bg-gradient-to-br from-background to-muted flex items-center justify-center">
@@ -122,11 +126,11 @@ export function Niches() {
           ))}
         </div>
 
-        <div className="mt-6 text-center text-muted-foreground text-xl md:text-2xl font-medium tracking-wide">
+        <div className="mt-4 text-center text-muted-foreground text-base md:text-lg font-medium tracking-wide">
           and more...
         </div>
 
-        <div className="mt-8 flex flex-col md:flex-row items-start md:items-center justify-between bg-card/50 p-8 rounded-3xl border border-border/50 gap-6 md:gap-0">
+        <div className="mt-4 flex flex-col md:flex-row items-start md:items-center justify-between bg-card/50 p-8 rounded-3xl border border-border/50 gap-6 md:gap-0">
           <div className="flex items-start gap-5">
             <div className="flex items-center justify-center flex-shrink-0 mt-1">
               <img src="/logo.png" alt="Azee Studios" className="h-8 md:h-10 w-auto" />

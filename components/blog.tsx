@@ -39,7 +39,7 @@ export function Blog() {
   }, []);
 
   return (
-    <section id="blog" className="py-16 md:py-24 relative bg-background overflow-hidden">
+    <section id="blog" className="py-8 md:py-12 relative bg-background overflow-hidden">
       <div className="container mx-auto px-4">
         {/* Section Header */}
         <div className="text-center mb-16 max-w-2xl mx-auto">

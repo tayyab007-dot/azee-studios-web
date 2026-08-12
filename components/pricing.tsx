@@ -61,7 +61,7 @@ const itemVariants = {
 
 export function Pricing() {
   return (
-    <section id="pricing" className="py-16 md:py-24 relative">
+    <section id="pricing" className="py-8 md:py-12 relative">
       <div className="container mx-auto px-4">
         {/* Section Header */}
         <div className="flex flex-col md:flex-row md:items-end justify-between mb-16 gap-6">

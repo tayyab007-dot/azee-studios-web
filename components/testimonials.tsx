@@ -68,7 +68,7 @@ export function Testimonials() {
   };
 
   return (
-    <section className="py-16 md:py-24 overflow-hidden relative">
+    <section className="py-8 md:py-12 overflow-hidden relative">
       <div className="container mx-auto px-4">
         {/* Section Header */}
         <div className="text-center mb-12">

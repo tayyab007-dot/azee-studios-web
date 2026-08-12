@@ -85,7 +85,7 @@ export function PortfolioGallery() {
   const visibleAssets = filteredAssets.slice(0, visibleCount);
 
   return (
-    <section id="portfolio" className="py-16 md:py-24 relative bg-background overflow-hidden">
+    <section id="portfolio" className="py-8 md:py-12 relative bg-background overflow-hidden">
       <div className="container mx-auto px-4">
         {/* Section Header */}
         <div className="flex flex-col items-center mb-16 gap-6 text-center">
