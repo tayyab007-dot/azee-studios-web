@@ -93,7 +93,7 @@ export function FAQ() {
           <span className="text-accent font-semibold tracking-wider text-xs uppercase mb-4 block">
             FAQS
           </span>
-          <h2 className="text-4xl md:text-5xl font-bold tracking-tight mb-4">
+          <h2 className="text-3xl md:text-5xl font-bold tracking-tight mb-4">
             Frequently Asked <span className="text-accent">Questions</span>
           </h2>
           <p className="text-muted-foreground text-sm">

@@ -92,7 +92,7 @@ export function PortfolioGallery() {
           <span className="text-accent font-semibold tracking-wider text-sm uppercase mb-2 block">
             Our Masterpieces
           </span>
-          <h2 className="text-4xl md:text-5xl font-bold tracking-tight">
+          <h2 className="text-3xl md:text-5xl font-bold tracking-tight">
             Portfolio Gallery
           </h2>
           <p className="text-muted-foreground max-w-2xl text-lg">

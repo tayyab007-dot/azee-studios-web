@@ -72,7 +72,7 @@ export function Services() {
           <span className="text-accent font-semibold tracking-wider text-sm uppercase mb-4 block">
             Services
           </span>
-          <h2 className="text-4xl md:text-5xl font-bold mb-6 tracking-tight leading-tight">
+          <h2 className="text-3xl md:text-5xl font-bold mb-6 tracking-tight leading-tight">
             Everything you need to <br className="hidden md:block" />
             <span className="text-gradient inline-block mt-2 md:mt-4">build & ship</span>
           </h2>

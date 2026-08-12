@@ -69,7 +69,7 @@ export function Pricing() {
             <span className="text-accent font-semibold tracking-wider text-sm uppercase mb-4 block">
               Pricing
             </span>
-            <h2 className="text-4xl md:text-5xl font-bold tracking-tight">
+            <h2 className="text-3xl md:text-5xl font-bold tracking-tight">
               Simple, transparent pricing
             </h2>
           </div>
@@ -111,7 +111,7 @@ export function Pricing() {
               </div>
 
               <div className="mb-8 flex items-baseline gap-2">
-                <span className="text-4xl md:text-5xl font-black">{plan.price}</span>
+                <span className="text-3xl md:text-5xl font-black">{plan.price}</span>
                 {plan.price.includes("$") && <span className="text-muted-foreground font-medium">/project</span>}
               </div>
 

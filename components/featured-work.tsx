@@ -62,7 +62,7 @@ export function FeaturedWork() {
             <span className="text-accent font-semibold tracking-wider text-sm uppercase mb-4 block">
               Portfolio
             </span>
-            <h2 className="text-4xl md:text-5xl font-bold tracking-tight">
+            <h2 className="text-3xl md:text-5xl font-bold tracking-tight">
               Selected Work
             </h2>
           </div>

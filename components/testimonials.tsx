@@ -75,7 +75,7 @@ export function Testimonials() {
           <span className="text-accent font-semibold tracking-wider text-xs sm:text-sm uppercase mb-3 block">
             Testimonials
           </span>
-          <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold tracking-tight mb-6">
+          <h2 className="text-3xl sm:text-3xl md:text-5xl font-bold tracking-tight mb-6">
             What our <span className="text-gradient">clients</span> say
           </h2>
 

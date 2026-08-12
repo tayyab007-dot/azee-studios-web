@@ -99,7 +99,7 @@ export function Niches() {
               </div>
 
 
-              <div className="w-full md:w-[55%] relative aspect-video md:aspect-auto md:min-h-0 bg-muted/20 flex items-center justify-center overflow-hidden">
+              <div className="w-full md:w-[55%] relative aspect-[4/5] md:aspect-auto md:min-h-0 bg-muted/20 flex items-center justify-center overflow-hidden">
                 {niche.videoUrl ? (
                   <video
                     src={niche.videoUrl}
@@ -107,10 +107,10 @@ export function Niches() {
                     loop
                     muted
                     playsInline
-                    className={`absolute inset-0 w-[110%] h-[110%] -left-[5%] -top-[5%] object-cover ${
-                      niche.videoUrl.includes('statue') || niche.videoUrl.includes('hero')
+                    className={`absolute inset-0 w-[115%] h-[115%] -left-[7.5%] -top-[7.5%] object-cover ${
+                      niche.videoUrl.includes('statue') || niche.videoUrl.includes('hero') || niche.videoUrl.includes('watch')
                         ? 'object-[center_10%]'
-                        : 'object-center'
+                        : 'object-[center_15%]'
                     }`}
                   />
                 ) : (

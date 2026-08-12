@@ -56,7 +56,7 @@ export function Process() {
             <span className="text-accent font-semibold tracking-wider text-sm uppercase mb-4 block">
               Our Process
             </span>
-            <h2 className="text-4xl md:text-5xl font-bold tracking-tight">
+            <h2 className="text-3xl md:text-5xl font-bold tracking-tight">
               A proven <span className="text-gradient">delivery</span> process
             </h2>
           </div>

@@ -31,7 +31,7 @@ export function Hero() {
           transition={{ duration: 0.5, delay: 0.1 }}
           className="max-w-4xl mb-6"
         >
-          <h1 className="text-4xl sm:text-5xl md:text-6xl xl:text-7xl font-black tracking-tight leading-[1.1] text-foreground">
+          <h1 className="text-3xl sm:text-4xl md:text-6xl xl:text-7xl font-black tracking-tight leading-[1.1] text-foreground">
             Digital Solutions
             <span className="block text-gradient">Built to Scale.</span>
           </h1>

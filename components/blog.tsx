@@ -46,7 +46,7 @@ export function Blog() {
           <span className="text-accent font-semibold tracking-wider text-sm uppercase mb-4 block">
             Insights
           </span>
-          <h2 className="text-4xl md:text-5xl font-bold tracking-tight mb-4">
+          <h2 className="text-3xl md:text-5xl font-bold tracking-tight mb-4">
             Our <span className="text-gradient">Blog</span>
           </h2>
           <p className="text-muted-foreground">

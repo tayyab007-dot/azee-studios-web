@@ -5,7 +5,7 @@ export function About() {
         <span className="text-accent font-semibold tracking-wider text-sm uppercase mb-4 block">
           Our Story
         </span>
-        <h2 className="text-4xl md:text-5xl font-bold tracking-tight mb-6">
+        <h2 className="text-3xl md:text-5xl font-bold tracking-tight mb-6">
           About Azee Studios
         </h2>
         <p className="text-muted-foreground max-w-3xl mx-auto text-lg leading-relaxed">

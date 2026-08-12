@@ -58,7 +58,7 @@ export function Contact() {
           <span className="text-accent font-semibold tracking-wider text-sm uppercase mb-4 block">
             Contact Us
           </span>
-          <h2 className="text-4xl md:text-5xl font-bold tracking-tight mb-4">
+          <h2 className="text-3xl md:text-5xl font-bold tracking-tight mb-4">
             Let&apos;s Build <span className="text-gradient">Something Great</span>
           </h2>
           <p className="text-muted-foreground">
