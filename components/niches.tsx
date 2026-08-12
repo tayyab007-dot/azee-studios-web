@@ -107,9 +107,9 @@ export function Niches() {
                     loop
                     muted
                     playsInline
-                    className={`absolute inset-0 w-full h-full object-cover scale-[1.02] ${
+                    className={`absolute inset-0 w-[110%] h-[110%] -left-[5%] -top-[5%] object-cover ${
                       niche.videoUrl.includes('statue') || niche.videoUrl.includes('hero')
-                        ? 'object-[center_top]'
+                        ? 'object-[center_10%]'
                         : 'object-center'
                     }`}
                   />
