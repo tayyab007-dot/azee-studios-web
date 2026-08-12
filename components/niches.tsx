@@ -36,6 +36,14 @@ const niches = [
     description: "High-impact websites for gaming studios, entertainment brands, and immersive digital experiences.",
     videoUrl: "/projects/hero.mp4",
   },
+  {
+    num: "05",
+    icon: "🏢",
+    title: "Real Estate & Construction",
+    tagline: "Visionary. Structurally Sound. Striking.",
+    description: "Modern and robust digital presences for real estate firms, construction companies, and architectural practices.",
+    videoUrl: "/projects/building.mp4",
+  },
 ];
 
 export function Niches() {
@@ -112,6 +120,9 @@ export function Niches() {
           ))}
         </div>
 
+        <div className="mt-12 text-center text-muted-foreground text-xl md:text-2xl font-medium tracking-wide">
+          and more...
+        </div>
 
         <div className="mt-20 flex flex-col md:flex-row items-start md:items-center justify-between bg-card/50 p-8 rounded-3xl border border-border/50 gap-6 md:gap-0">
           <div className="flex items-start gap-5">

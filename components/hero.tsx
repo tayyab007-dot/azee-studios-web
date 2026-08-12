@@ -7,7 +7,7 @@ import Link from "next/link";
 export function Hero() {
   return (
     /* pt-28 adjusts top spacing cleanly right below the navbar */
-    <section className="relative w-full overflow-hidden pt-28 md:pt-32 pb-16 md:pb-20 text-center">
+    <section className="relative w-full overflow-hidden pt-28 md:pt-32 pb-4 md:pb-8 text-center">
       {/* Background Glow */}
       <div className="absolute inset-0 z-0 pointer-events-none overflow-hidden">
         <div className="absolute left-1/2 -translate-x-1/2 top-[-20%] w-[150vw] h-[1000px] bg-[radial-gradient(ellipse_at_center,rgba(255,30,86,0.12)_0%,transparent_50%)]" />
@@ -76,10 +76,6 @@ export function Hero() {
           <div className="flex items-center gap-2">
             <CheckCircle2 className="w-5 h-5 text-accent" />
             <span>120+ projects shipped</span>
-          </div>
-          <div className="flex items-center gap-2">
-            <CheckCircle2 className="w-5 h-5 text-accent" />
-            <span>40+ engineers</span>
           </div>
         </motion.div>
       </div>

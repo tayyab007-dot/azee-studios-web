@@ -26,7 +26,7 @@ export function BrandsShowcase() {
     <div className="w-full">
       <div className="container mx-auto px-4 max-w-6xl">
 
-        <div className="mb-16 text-center pt-20 mt-12 border-t border-border/40">
+        <div className="mb-16 text-center pt-8 mt-4 border-t border-border/40">
           <span className="text-accent font-semibold tracking-wider text-sm uppercase mb-4 block">
             Branding Showcase
           </span>
