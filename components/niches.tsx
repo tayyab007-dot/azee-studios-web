@@ -38,10 +38,10 @@ const niches = [
   },
   {
     num: "05",
-    icon: "🏢",
-    title: "Real Estate & Construction",
-    tagline: "Visionary. Structurally Sound. Striking.",
-    description: "Modern and robust digital presences for real estate firms, construction companies, and architectural practices.",
+    icon: "💼",
+    title: "Business & Corporate",
+    tagline: "Professional. Clean. Trustworthy.",
+    description: "Minimal and performance-driven websites for corporate brands, startups, and consulting businesses.",
     videoUrl: "/projects/building.mp4",
   },
 ];
@@ -52,9 +52,9 @@ export function Niches() {
       <div className="container mx-auto px-6 max-w-6xl">
 
         <div className="mb-20 text-center relative flex flex-col items-center">
-          <div className="inline-flex items-center gap-2 px-6 py-1.5 rounded-full bg-muted/50 border border-border text-sm mb-6">
+          <div className="inline-flex items-center gap-2 px-4 sm:px-6 py-1.5 rounded-full bg-muted/50 border border-border text-xs sm:text-sm mb-6 whitespace-nowrap">
             <span className="font-medium text-muted-foreground">Real Projects. Real Impact.</span>
-            <span className="w-1.5 h-1.5 rounded-full bg-accent"></span>
+            <span className="w-1.5 h-1.5 rounded-full bg-accent shrink-0"></span>
             <span className="font-bold text-accent">NDA Protected.</span>
           </div>
           <h2 className="text-2xl md:text-5xl lg:text-6xl font-bold tracking-tight mb-6 max-w-4xl mx-auto leading-tight mt-2">
