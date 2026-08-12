@@ -6,7 +6,7 @@ import { CheckCircle2, Heart, Clock } from "lucide-react";
 
 const stats = [
   {
-    value: () => <><AnimatedNumber value={100} />+</>,
+    value: () => <><AnimatedNumber value={120} />+</>,
     label: "Positive Client Reviews",
     icon: Heart,
   },
@@ -40,7 +40,7 @@ function AnimatedNumber({ value, from = 0 }: { value: number, from?: number }) {
 
 export function Stats() {
   return (
-    <section className="py-12 border-y border-border/50 bg-card/20 backdrop-blur-sm relative z-10">
+    <section className="py-4 border-y border-border/50 bg-card/20 backdrop-blur-sm relative z-10">
       <div className="container mx-auto px-4">
         <div className="grid grid-cols-3 gap-4 md:gap-4 divide-x divide-border">
           {stats.map((stat, index) => (
