@@ -53,7 +53,7 @@ export function Stats() {
               className="flex flex-col items-center justify-center text-center px-2 md:px-6"
             >
               <stat.icon className="w-6 h-6 text-accent mb-4 opacity-80" />
-              <h4 className="text-2xl md:text-5xl font-extrabold text-gradient mb-1 md:mb-2">
+              <h4 className="text-xl md:text-4xl font-extrabold text-gradient mb-1 md:mb-2">
                 {stat.value()}
               </h4>
               <p className="text-[10px] md:text-sm font-medium text-muted-foreground uppercase tracking-wider leading-tight">
