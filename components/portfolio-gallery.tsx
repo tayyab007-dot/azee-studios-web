@@ -85,7 +85,7 @@ export function PortfolioGallery() {
   const visibleAssets = filteredAssets.slice(0, visibleCount);
 
   return (
-    <section id="portfolio" className="py-8 md:py-12 relative bg-background overflow-hidden">
+    <section id="portfolio" className="pt-8 md:pt-12 pb-4 relative bg-background overflow-hidden">
       <div className="container mx-auto px-4">
         {/* Section Header */}
         <div className="flex flex-col items-center mb-16 gap-6 text-center">
@@ -181,10 +181,10 @@ export function PortfolioGallery() {
         )}
 
         {!loading && filteredAssets.length > visibleCount && (
-          <div className="flex justify-center mt-12">
+          <div className="flex justify-center mt-6">
             <button
               onClick={() => setVisibleCount((prev) => prev + 6)}
-              className="px-8 py-3 rounded-xl bg-accent text-white font-bold hover:bg-accent/90 transition-all shadow-lg hover:shadow-accent/25"
+              className="px-6 py-2 rounded-xl bg-accent text-white font-bold text-sm hover:bg-accent/90 transition-all shadow-lg hover:shadow-accent/25"
             >
               Show More
             </button>
