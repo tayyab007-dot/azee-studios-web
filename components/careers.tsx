@@ -1,11 +1,11 @@
 export function Careers() {
   return (
     <section id="careers" className="py-24 relative bg-card/5">
-      <div className="container mx-auto px-4 text-center">
+      <div className="container mx-auto px-6 text-center">
         <span className="text-accent font-semibold tracking-wider text-sm uppercase mb-4 block">
           Join Us
         </span>
-        <h2 className="text-3xl md:text-5xl font-bold tracking-tight mb-6">
+        <h2 className="text-2xl md:text-5xl font-bold tracking-tight mb-6">
           Careers at Azee Studios
         </h2>
         <p className="text-muted-foreground max-w-2xl mx-auto text-lg mb-12">

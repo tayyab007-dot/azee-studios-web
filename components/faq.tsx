@@ -87,13 +87,13 @@ export function FAQ() {
 
   return (
     <section id="faq" className="py-8 md:py-12 relative bg-background">
-      <div className="container mx-auto px-4 max-w-4xl">
+      <div className="container mx-auto px-6 max-w-4xl">
         {/* Section Header */}
         <div className="flex flex-col items-center mb-16 text-center">
           <span className="text-accent font-semibold tracking-wider text-xs uppercase mb-4 block">
             FAQS
           </span>
-          <h2 className="text-3xl md:text-5xl font-bold tracking-tight mb-4">
+          <h2 className="text-2xl md:text-5xl font-bold tracking-tight mb-4">
             Frequently Asked <span className="text-accent">Questions</span>
           </h2>
           <p className="text-muted-foreground text-sm">

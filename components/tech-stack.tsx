@@ -24,7 +24,7 @@ const tools = [
 export function TechStack() {
   return (
     <section className="py-24 bg-card/5">
-      <div className="container mx-auto px-4">
+      <div className="container mx-auto px-6">
         {/* Header */}
         <div className="text-center max-w-3xl mx-auto mb-12">
           <h2 className="text-3xl md:text-4xl font-bold tracking-tight mb-4">
@@ -42,7 +42,7 @@ export function TechStack() {
             return (
               <div
                 key={index}
-                className={`px-4 py-2 rounded-full text-sm font-medium transition-colors border ${
+                className={`px-6 py-2 rounded-full text-sm font-medium transition-colors border ${
                   isActive
                     ? "bg-accent text-white border-2 border-accent shadow-md"
                     : "bg-transparent text-muted-foreground border-border hover:border-muted-foreground/50 hover:text-foreground"

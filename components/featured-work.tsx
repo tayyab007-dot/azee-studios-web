@@ -55,14 +55,14 @@ const itemVariants = {
 export function FeaturedWork() {
   return (
     <section id="work" className="py-8 md:py-12 relative bg-card/10">
-      <div className="container mx-auto px-4">
+      <div className="container mx-auto px-6">
         {/* Section Header */}
         <div className="flex flex-col md:flex-row md:items-end justify-between mb-16 gap-6">
           <div>
             <span className="text-accent font-semibold tracking-wider text-sm uppercase mb-4 block">
               Portfolio
             </span>
-            <h2 className="text-3xl md:text-5xl font-bold tracking-tight">
+            <h2 className="text-2xl md:text-5xl font-bold tracking-tight">
               Selected Work
             </h2>
           </div>
@@ -92,7 +92,7 @@ export function FeaturedWork() {
               {/* Browser/Device Mockup */}
               <div className="relative w-full aspect-[4/3] rounded-2xl bg-card border border-black/20 dark:border-white/20 group-hover:border-accent/50 dark:group-hover:border-accent/50 overflow-hidden flex flex-col shadow-lg group-hover:-translate-y-2 transition-all duration-500">
                 {/* Browser Top Bar */}
-                <div className="h-8 border-b border-border bg-muted/50 flex items-center px-4 gap-2 shrink-0">
+                <div className="h-8 border-b border-border bg-muted/50 flex items-center px-6 gap-2 shrink-0">
                   <div className="w-2.5 h-2.5 rounded-full bg-border" />
                   <div className="w-2.5 h-2.5 rounded-full bg-border" />
                   <div className="w-2.5 h-2.5 rounded-full bg-border" />

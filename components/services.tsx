@@ -66,13 +66,13 @@ const itemVariants = {
 export function Services() {
   return (
     <section id="services" className="pt-4 md:pt-6 pb-16 md:pb-24 relative">
-      <div className="container mx-auto px-4">
+      <div className="container mx-auto px-6">
         {/* Section Header */}
         <div className="text-center max-w-3xl mx-auto mb-16">
           <span className="text-accent font-semibold tracking-wider text-sm uppercase mb-4 block">
             Services
           </span>
-          <h2 className="text-3xl md:text-5xl font-bold mb-6 tracking-tight leading-tight">
+          <h2 className="text-2xl md:text-5xl font-bold mb-6 tracking-tight leading-tight">
             Everything you need to <br className="hidden md:block" />
             <span className="text-gradient inline-block mt-2 md:mt-4">build & ship</span>
           </h2>
@@ -132,7 +132,7 @@ export function Services() {
                 {service.tags.map((tag, tagIndex) => (
                   <span
                     key={tagIndex}
-                    className="px-4 py-1.5 text-xs font-semibold bg-background ring-1 ring-border rounded-full text-muted-foreground group-hover:ring-accent/30 group-hover:text-foreground transition-colors duration-300"
+                    className="px-6 py-1.5 text-xs font-semibold bg-background ring-1 ring-border rounded-full text-muted-foreground group-hover:ring-accent/30 group-hover:text-foreground transition-colors duration-300"
                   >
                     {tag}
                   </span>

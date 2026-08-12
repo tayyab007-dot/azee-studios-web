@@ -62,14 +62,14 @@ const itemVariants = {
 export function Pricing() {
   return (
     <section id="pricing" className="py-8 md:py-12 relative">
-      <div className="container mx-auto px-4">
+      <div className="container mx-auto px-6">
         {/* Section Header */}
         <div className="flex flex-col md:flex-row md:items-end justify-between mb-16 gap-6">
           <div>
             <span className="text-accent font-semibold tracking-wider text-sm uppercase mb-4 block">
               Pricing
             </span>
-            <h2 className="text-3xl md:text-5xl font-bold tracking-tight">
+            <h2 className="text-2xl md:text-5xl font-bold tracking-tight">
               Simple, transparent pricing
             </h2>
           </div>
@@ -100,7 +100,7 @@ export function Pricing() {
               }`}
             >
               {plan.popular && (
-                <div className="absolute top-0 left-1/2 -translate-x-1/2 -translate-y-1/2 bg-gradient-accent text-white px-4 py-1 rounded-full text-xs font-bold tracking-wider">
+                <div className="absolute top-0 left-1/2 -translate-x-1/2 -translate-y-1/2 bg-gradient-accent text-white px-6 py-1 rounded-full text-xs font-bold tracking-wider">
                   MOST POPULAR
                 </div>
               )}
@@ -111,7 +111,7 @@ export function Pricing() {
               </div>
 
               <div className="mb-8 flex items-baseline gap-2">
-                <span className="text-3xl md:text-5xl font-black">{plan.price}</span>
+                <span className="text-2xl md:text-5xl font-black">{plan.price}</span>
                 {plan.price.includes("$") && <span className="text-muted-foreground font-medium">/project</span>}
               </div>
 

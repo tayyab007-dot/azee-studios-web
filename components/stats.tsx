@@ -41,7 +41,7 @@ function AnimatedNumber({ value, from = 0 }: { value: number, from?: number }) {
 export function Stats() {
   return (
     <section className="py-4 border-y border-border/50 bg-card/20 backdrop-blur-sm relative z-10">
-      <div className="container mx-auto px-4">
+      <div className="container mx-auto px-6">
         <div className="grid grid-cols-3 gap-4 md:gap-4 divide-x divide-border">
           {stats.map((stat, index) => (
             <motion.div
@@ -50,7 +50,7 @@ export function Stats() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 0.5, delay: index * 0.1 }}
-              className="flex flex-col items-center justify-center text-center px-2 md:px-4"
+              className="flex flex-col items-center justify-center text-center px-2 md:px-6"
             >
               <stat.icon className="w-6 h-6 text-accent mb-4 opacity-80" />
               <h4 className="text-2xl md:text-5xl font-extrabold text-gradient mb-1 md:mb-2">

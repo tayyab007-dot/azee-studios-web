@@ -40,13 +40,13 @@ export function Blog() {
 
   return (
     <section id="blog" className="py-8 md:py-12 relative bg-background overflow-hidden">
-      <div className="container mx-auto px-4">
+      <div className="container mx-auto px-6">
         {/* Section Header */}
         <div className="text-center mb-16 max-w-2xl mx-auto">
           <span className="text-accent font-semibold tracking-wider text-sm uppercase mb-4 block">
             Insights
           </span>
-          <h2 className="text-3xl md:text-5xl font-bold tracking-tight mb-4">
+          <h2 className="text-2xl md:text-5xl font-bold tracking-tight mb-4">
             Our <span className="text-gradient">Blog</span>
           </h2>
           <p className="text-muted-foreground">

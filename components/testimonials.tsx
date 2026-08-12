@@ -69,13 +69,13 @@ export function Testimonials() {
 
   return (
     <section className="pt-4 pb-8 md:pb-12 overflow-hidden relative">
-      <div className="container mx-auto px-4">
+      <div className="container mx-auto px-6">
         {/* Section Header */}
         <div className="text-center mb-12">
           <span className="text-accent font-semibold tracking-wider text-xs sm:text-sm uppercase mb-3 block">
             Testimonials
           </span>
-          <h2 className="text-3xl sm:text-3xl md:text-5xl font-bold tracking-tight mb-6">
+          <h2 className="text-3xl sm:text-2xl md:text-5xl font-bold tracking-tight mb-6">
             What our <span className="text-gradient">clients</span> say
           </h2>
 
@@ -89,7 +89,7 @@ export function Testimonials() {
         </div>
 
         {/* Marquee Container */}
-        <div className="relative flex overflow-x-hidden group max-w-[100vw] -mx-4 px-4 sm:mx-0 sm:px-0">
+        <div className="relative flex overflow-x-hidden group max-w-[100vw] -mx-6 px-6 sm:mx-0 sm:px-0">
           <div className="animate-marquee flex gap-6 py-4 whitespace-nowrap group-hover:[animation-play-state:paused]">
             {[...reviews, ...reviews].map((testimonial, index) => (
               <div

@@ -52,13 +52,13 @@ export function Contact() {
 
   return (
     <section id="contact" className="py-8 md:py-12 relative overflow-hidden">
-      <div className="container mx-auto px-4">
+      <div className="container mx-auto px-6">
         {/* Section Header */}
         <div className="text-center mb-16 max-w-2xl mx-auto">
           <span className="text-accent font-semibold tracking-wider text-sm uppercase mb-4 block">
             Contact Us
           </span>
-          <h2 className="text-3xl md:text-5xl font-bold tracking-tight mb-4">
+          <h2 className="text-2xl md:text-5xl font-bold tracking-tight mb-4">
             Let&apos;s Build <span className="text-gradient">Something Great</span>
           </h2>
           <p className="text-muted-foreground">
@@ -85,7 +85,7 @@ export function Contact() {
                   value={formData.name}
                   onChange={handleChange}
                   placeholder="Your Name"
-                  className="w-full px-4 py-3 rounded-xl bg-background border border-border focus:border-accent focus:outline-none transition-all"
+                  className="w-full px-6 py-3 rounded-xl bg-background border border-border focus:border-accent focus:outline-none transition-all"
                 />
               </div>
 
@@ -99,7 +99,7 @@ export function Contact() {
                   value={formData.email}
                   onChange={handleChange}
                   placeholder="name@example.com"
-                  className="w-full px-4 py-3 rounded-xl bg-background border border-border focus:border-accent focus:outline-none transition-all"
+                  className="w-full px-6 py-3 rounded-xl bg-background border border-border focus:border-accent focus:outline-none transition-all"
                 />
               </div>
             </div>
@@ -111,7 +111,7 @@ export function Contact() {
                 name="service"
                 value={formData.service}
                 onChange={handleChange}
-                className="w-full px-4 py-3 rounded-xl bg-background border border-border focus:border-accent focus:outline-none transition-all"
+                className="w-full px-6 py-3 rounded-xl bg-background border border-border focus:border-accent focus:outline-none transition-all"
               >
                 <option value="Web & App Development">Web & App Development</option>
                 <option value="Game Dev & 3D">Game Dev & 3D</option>
@@ -132,7 +132,7 @@ export function Contact() {
                 value={formData.message}
                 onChange={handleChange}
                 placeholder="Tell us about your project goals and requirements..."
-                className="w-full px-4 py-3 rounded-xl bg-background border border-border focus:border-accent focus:outline-none transition-all resize-none"
+                className="w-full px-6 py-3 rounded-xl bg-background border border-border focus:border-accent focus:outline-none transition-all resize-none"
               ></textarea>
             </div>
 

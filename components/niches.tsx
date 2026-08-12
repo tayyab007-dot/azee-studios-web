@@ -49,15 +49,15 @@ const niches = [
 export function Niches() {
   return (
     <section id="niches" className="pt-12 pb-0 relative overflow-hidden bg-background">
-      <div className="container mx-auto px-4 max-w-6xl">
+      <div className="container mx-auto px-6 max-w-6xl">
 
         <div className="mb-20 text-center relative flex flex-col items-center">
-          <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-muted/50 border border-border text-sm mb-6">
+          <div className="inline-flex items-center gap-2 px-6 py-1.5 rounded-full bg-muted/50 border border-border text-sm mb-6">
             <span className="font-medium text-muted-foreground">Real Projects. Real Impact.</span>
             <span className="w-1.5 h-1.5 rounded-full bg-accent"></span>
             <span className="font-bold text-accent">NDA Protected.</span>
           </div>
-          <h2 className="text-3xl md:text-5xl lg:text-6xl font-bold tracking-tight mb-6 max-w-4xl mx-auto leading-tight mt-2">
+          <h2 className="text-2xl md:text-5xl lg:text-6xl font-bold tracking-tight mb-6 max-w-4xl mx-auto leading-tight mt-2">
             Crafting Digital Experiences <br className="hidden md:block" /> Across <span className="text-accent">Every Niche.</span>
           </h2>
           <p className="text-muted-foreground text-lg max-w-3xl mx-auto text-balance">
@@ -107,11 +107,7 @@ export function Niches() {
                     loop
                     muted
                     playsInline
-                    className={`absolute inset-0 w-[115%] h-[115%] -left-[7.5%] -top-[7.5%] object-cover ${
-                      niche.videoUrl.includes('statue') || niche.videoUrl.includes('hero') || niche.videoUrl.includes('watch')
-                        ? 'object-[center_10%]'
-                        : 'object-[center_15%]'
-                    }`}
+                    className="absolute inset-0 w-full h-full object-contain"
                   />
                 ) : (
                   <div className="absolute inset-0 bg-gradient-to-br from-background to-muted flex items-center justify-center">

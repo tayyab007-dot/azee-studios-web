@@ -16,7 +16,7 @@ export function CryptoShowcase() {
       <div className="absolute top-0 left-1/4 w-96 h-96 bg-accent/20 rounded-full blur-[100px] pointer-events-none" />
       <div className="absolute bottom-0 right-1/4 w-96 h-96 bg-accent/10 rounded-full blur-[100px] pointer-events-none" />
 
-      <div className="container mx-auto px-0 md:px-4 relative z-10">
+      <div className="container mx-auto px-0 md:px-6 relative z-10">
 
         <div className="grid grid-cols-2 md:grid-cols-4 gap-4 md:gap-6">
           {cryptoProjects.map((project, index) => (

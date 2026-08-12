@@ -45,7 +45,7 @@ export function Navbar() {
           : "bg-transparent border-transparent"
       }`}
     >
-      <div className="container mx-auto px-4 h-20 flex items-center justify-between">
+      <div className="container mx-auto px-6 h-20 flex items-center justify-between">
         {/* Logo */}
         <Link href="/" className="flex items-center gap-2 relative z-50">
           <img src="/logo.png" alt="Azee Studios" className="h-8 md:h-10 w-auto" />
@@ -77,7 +77,7 @@ export function Navbar() {
 
           <Link
             href="/#contact"
-            className="px-4 py-2 text-sm font-medium text-white rounded-xl bg-gradient-accent hover:opacity-90 transition-all duration-300 hover-glow"
+            className="px-6 py-2 text-sm font-medium text-white rounded-xl bg-gradient-accent hover:opacity-90 transition-all duration-300 hover-glow"
           >
             Get Started
           </Link>
@@ -141,7 +141,7 @@ export function Navbar() {
               <Link
                 href="/#contact"
                 onClick={() => setMobileMenuOpen(false)}
-                className="w-full text-center px-4 py-3.5 text-base font-bold text-white rounded-xl bg-gradient-accent transition-all duration-300 shadow-lg"
+                className="w-full text-center px-6 py-3.5 text-base font-bold text-white rounded-xl bg-gradient-accent transition-all duration-300 shadow-lg"
               >
                 Get Started
               </Link>

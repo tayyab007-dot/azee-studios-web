@@ -86,13 +86,13 @@ export function PortfolioGallery() {
 
   return (
     <section id="portfolio" className="pt-8 md:pt-12 pb-4 relative bg-background overflow-hidden">
-      <div className="container mx-auto px-4">
+      <div className="container mx-auto px-6">
         {/* Section Header */}
         <div className="flex flex-col items-center mb-16 gap-6 text-center">
           <span className="text-accent font-semibold tracking-wider text-sm uppercase mb-2 block">
             Our Masterpieces
           </span>
-          <h2 className="text-3xl md:text-5xl font-bold tracking-tight">
+          <h2 className="text-2xl md:text-5xl font-bold tracking-tight">
             Portfolio Gallery
           </h2>
           <p className="text-muted-foreground max-w-2xl text-lg">

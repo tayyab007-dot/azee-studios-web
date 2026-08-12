@@ -24,13 +24,13 @@ const brands: Brand[] = [
 export function BrandsShowcase() {
   return (
     <div className="w-full">
-      <div className="container mx-auto px-4 max-w-6xl">
+      <div className="container mx-auto px-6 max-w-6xl">
 
         <div className="mb-8 text-center pt-4 border-t border-border/40">
           <span className="text-accent font-semibold tracking-wider text-sm uppercase mb-4 block">
             Branding Showcase
           </span>
-          <h2 className="text-3xl md:text-5xl font-bold tracking-tight mb-4">
+          <h2 className="text-2xl md:text-5xl font-bold tracking-tight mb-4">
             Our <span className="text-gradient">Branding</span> Work
           </h2>
           <p className="text-muted-foreground text-lg max-w-2xl mx-auto">
@@ -65,7 +65,7 @@ export function BrandsShowcase() {
                   <h3 className="text-2xl font-bold text-foreground mb-2 group-hover:text-accent transition-colors duration-300">
                     {brand.name}
                   </h3>
-                  <span className="inline-block px-4 py-1 rounded-full bg-muted/50 border border-border text-[10px] font-bold text-muted-foreground uppercase tracking-widest">
+                  <span className="inline-block px-6 py-1 rounded-full bg-muted/50 border border-border text-[10px] font-bold text-muted-foreground uppercase tracking-widest">
                     {brand.serviceProvided}
                   </span>
                 </div>

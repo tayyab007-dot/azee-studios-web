@@ -49,14 +49,14 @@ const itemVariants = {
 export function Process() {
   return (
     <section id="process" className="py-24 relative overflow-hidden">
-      <div className="container mx-auto px-4">
+      <div className="container mx-auto px-6">
         {/* Section Header */}
         <div className="flex flex-col md:flex-row md:items-end justify-between mb-16 gap-6">
           <div className="max-w-2xl">
             <span className="text-accent font-semibold tracking-wider text-sm uppercase mb-4 block">
               Our Process
             </span>
-            <h2 className="text-3xl md:text-5xl font-bold tracking-tight">
+            <h2 className="text-2xl md:text-5xl font-bold tracking-tight">
               A proven <span className="text-gradient">delivery</span> process
             </h2>
           </div>

@@ -13,7 +13,7 @@ export function Hero() {
         <div className="absolute left-1/2 -translate-x-1/2 top-[-20%] w-[150vw] h-[1000px] bg-[radial-gradient(ellipse_at_center,rgba(255,30,86,0.12)_0%,transparent_50%)]" />
       </div>
 
-      <div className="container relative z-10 mx-auto px-4 flex flex-col items-center">
+      <div className="container relative z-10 mx-auto px-6 flex flex-col items-center">
         {/* Software studio tag - slightly moved up for balanced padding */}
         <motion.div
           initial={{ opacity: 0, y: 20 }}
@@ -31,7 +31,7 @@ export function Hero() {
           transition={{ duration: 0.5, delay: 0.1 }}
           className="max-w-4xl mb-6"
         >
-          <h1 className="text-3xl sm:text-4xl md:text-6xl xl:text-7xl font-black tracking-tight leading-[1.1] text-foreground">
+          <h1 className="text-2xl sm:text-3xl md:text-6xl xl:text-7xl font-black tracking-tight leading-[1.1] text-foreground">
             Digital Solutions
             <span className="block text-gradient">Built to Scale.</span>
           </h1>
@@ -106,7 +106,7 @@ export function Hero() {
 //         <div className="absolute left-1/2 -translate-x-1/2 top-[-20%] w-[150vw] h-[1000px] bg-[radial-gradient(ellipse_at_center,rgba(255,30,86,0.12)_0%,transparent_50%)]" />
 //       </div>
 
-//       <div className="container relative z-10 mx-auto px-4 flex flex-col items-center">
+//       <div className="container relative z-10 mx-auto px-6 flex flex-col items-center">
 //         <motion.div
 //           initial={{ opacity: 0, y: 20 }}
 //           animate={{ opacity: 1, y: 0 }}
