@@ -12,16 +12,25 @@ interface ReviewItem {
   screenshotUrl?: string;
 }
 
-const fallbackTestimonials: ReviewItem[] = [
+// All 13 Static Reviews integrated as Default/Fallback State
+const staticTestimonials: ReviewItem[] = [
   { name: "Moz", role: "Client", text: "Vouch @azeeden for gfx service ❤️ quick guy" },
   { name: "Guss", role: "Web Client", text: "Vouch @azeeden for web development service, instant and trusted service" },
+  { name: "Anonymous", role: "Design Client", text: "Vouching @AzeeDen for quick graphic work. Helpful guy" },
   { name: "Simi", role: "SMM Client", text: "@AzeeDen Good social media manager, Vouch 🖤" },
-  { name: "Haider", role: "Development Client", text: "Best go to Developer on Telegram Vouching @AzeeDen✅" },
-  { name: "death", role: "Design Client", text: "Vouch @AzeeDen did logos, posts and stories for me!!" },
+  { name: "Haider", role: "Development Client", text: "Best go to Developer on Telegram Vouching @AzeeDen✅Will hire you again fs❤️" },
+  { name: "sfren", role: "Art Client", text: "Vouch for AzeeDen, helped me with getting art work done, very fast and responsive!" },
+  { name: "Crypto Ballout", role: "Crypto Client", text: "You’re going to be my firm graphic designer now" },
+  { name: "luxa", role: "Video Client", text: "Vouch @Azeeden best gfx and video work" },
+  { name: "fuerza.regida", role: "Client", text: "Vouch for Azee good work fast and simple good guy 💯" },
+  { name: "Agency Owner", role: "Agency Client", text: "Vouch Azee, fast turn around time and best graphics in the comm helped me with the rebranding of my OF agency" },
+  { name: "death", role: "Design Client", text: "Vouch @AzeeDen did logos, posts and stories for me. He was patient and easy to work with !!" },
+  { name: "ghost", role: "Client", text: "Vouch @azeeden Quick turn around times and good pricing. Great designs as well" },
+  { name: "Restaurant Owner", role: "Local Business", text: "Vouch @Azee, edited some Quality Videos for my restaurant, will work with you again fs" }
 ];
 
 export function Testimonials() {
-  const [reviews, setReviews] = useState<ReviewItem[]>(fallbackTestimonials);
+  const [reviews, setReviews] = useState<ReviewItem[]>(staticTestimonials);
   const [isModalOpen, setIsModalOpen] = useState(false);
   const [formData, setFormData] = useState({ name: "", role: "Client", text: "", screenshotUrl: "", isApproved: false });
   const [submitting, setSubmitting] = useState(false);
@@ -33,10 +42,10 @@ export function Testimonials() {
         const res = await fetch("/api/admin/reviews");
         const data = await res.json();
         if (res.ok && data.reviews && data.reviews.length > 0) {
-          setReviews(data.reviews);
+          setReviews([...data.reviews, ...staticTestimonials]);
         }
       } catch (err) {
-        console.error("Failed to fetch dynamic reviews:", err);
+        console.error("Failed to fetch dynamic reviews, utilizing fallback static dataset:", err);
       }
     }
     fetchReviews();
@@ -68,18 +77,17 @@ export function Testimonials() {
   };
 
   return (
-    <section className="pt-4 pb-8 md:pb-12 overflow-hidden relative">
-      <div className="container mx-auto px-6">
+    <section className="py-16 md:py-24 overflow-hidden relative">
+      <div className="container mx-auto px-4">
         {/* Section Header */}
         <div className="text-center mb-12">
           <span className="text-accent font-semibold tracking-wider text-xs sm:text-sm uppercase mb-3 block">
             Testimonials
           </span>
-          <h2 className="text-3xl sm:text-2xl md:text-5xl font-bold tracking-tight mb-6">
+          <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold tracking-tight mb-6">
             What our <span className="text-gradient">clients</span> say
           </h2>
 
-          {/* Public Add Review Button */}
           <button
             onClick={() => setIsModalOpen(true)}
             className="inline-flex items-center gap-2 px-6 py-3 bg-accent text-white font-bold rounded-2xl shadow-lg hover:opacity-90 transition-all text-xs sm:text-sm cursor-pointer hover-glow"
@@ -88,12 +96,12 @@ export function Testimonials() {
           </button>
         </div>
 
-        {/* Marquee Container */}
-        <div className="relative flex overflow-x-hidden group max-w-[100vw] -mx-6 px-6 sm:mx-0 sm:px-0">
+        {/* Infinite Scroll Marquee Container */}
+        <div className="relative flex overflow-x-hidden group max-w-[100vw] -mx-4 px-4 sm:mx-0 sm:px-0">
           <div className="animate-marquee flex gap-6 py-4 whitespace-nowrap group-hover:[animation-play-state:paused]">
             {[...reviews, ...reviews].map((testimonial, index) => (
               <div
-                key={index}
+                key={`${testimonial.name}-${index}`}
                 className="w-[300px] sm:w-[350px] md:w-[400px] flex-shrink-0 bg-card border border-border rounded-2xl p-6 sm:p-8 flex flex-col shadow-sm whitespace-normal"
               >
                 <div className="flex items-center gap-1 mb-6">
@@ -134,7 +142,6 @@ export function Testimonials() {
         {/* Featured Video Testimonial */}
         <div className="mt-16 md:mt-24 mb-16 max-w-5xl mx-auto">
           <div className="bg-card border border-border rounded-3xl overflow-hidden shadow-2xl flex flex-col md:flex-row items-stretch">
-            {/* Left: Text & Details */}
             <div className="p-6 sm:p-8 md:p-12 flex flex-col justify-center flex-1 relative overflow-hidden">
               <div className="absolute -top-4 -right-4 p-8 text-accent/5">
                 <Quote className="w-32 h-32" />
@@ -163,7 +170,6 @@ export function Testimonials() {
               </div>
             </div>
             
-            {/* Right: Video */}
             <div className="w-full md:w-[400px] lg:w-[450px] shrink-0 bg-card relative flex items-center justify-center border-t md:border-t-0 md:border-l border-border/50">
               <video 
                 src="/reviews/vouch_video.mp4" 
@@ -196,7 +202,7 @@ export function Testimonials() {
 
       </div>
 
-      {/* Submit Review Modal */}
+      {/* Modal */}
       {isModalOpen && (
         <div className="fixed inset-0 z-50 bg-black/80 backdrop-blur-sm flex items-center justify-center p-4">
           <div className="bg-card border-2 border-border rounded-3xl max-w-md w-full p-6 sm:p-8 relative shadow-2xl">
