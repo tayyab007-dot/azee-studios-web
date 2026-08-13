@@ -85,7 +85,7 @@ export function PortfolioGallery() {
   const visibleAssets = filteredAssets.slice(0, visibleCount);
 
   return (
-    <section id="portfolio" className="pt-8 md:pt-12 pb-4 relative bg-background overflow-hidden">
+    <section id="portfolio" className="pt-8 md:pt-12 pb-4 relative overflow-hidden">
       <div className="container mx-auto px-6">
         {/* Section Header */}
         <div className="flex flex-col items-center mb-16 gap-6 text-center">

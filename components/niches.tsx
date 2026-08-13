@@ -48,7 +48,7 @@ const niches = [
 
 export function Niches() {
   return (
-    <section id="niches" className="pt-12 pb-12 relative overflow-hidden bg-background">
+    <section id="niches" className="pt-12 pb-12 relative overflow-hidden">
       <div className="container mx-auto px-6 max-w-6xl">
 
         <div className="mb-20 text-center relative flex flex-col items-center">

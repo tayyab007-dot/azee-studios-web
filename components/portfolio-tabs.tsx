@@ -10,7 +10,7 @@ export function PortfolioTabs() {
   const [activeTab, setActiveTab] = useState<"brands" | "memecoins" | "favorites">("brands");
 
   return (
-    <section className="py-10 md:py-24 relative bg-background">
+    <section className="py-10 md:py-24 relative">
       <div className="container mx-auto px-6">
         
         {/* Unified Section Header */}
