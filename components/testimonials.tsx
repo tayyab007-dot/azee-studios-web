@@ -12,7 +12,6 @@ interface ReviewItem {
   screenshotUrl?: string;
 }
 
-// All 13 Static Reviews integrated as Default/Fallback State
 const staticTestimonials: ReviewItem[] = [
   { name: "Moz", role: "Client", text: "Vouch @azeeden for gfx service ❤️ quick guy" },
   { name: "Guss", role: "Web Client", text: "Vouch @azeeden for web development service, instant and trusted service" },
@@ -45,7 +44,7 @@ export function Testimonials() {
           setReviews([...data.reviews, ...staticTestimonials]);
         }
       } catch (err) {
-        console.error("Failed to fetch dynamic reviews, utilizing fallback static dataset:", err);
+        console.error("Failed to fetch dynamic reviews:", err);
       }
     }
     fetchReviews();
@@ -79,7 +78,6 @@ export function Testimonials() {
   return (
     <section className="py-16 md:py-24 overflow-hidden relative">
       <div className="container mx-auto px-4">
-        {/* Section Header */}
         <div className="text-center mb-12">
           <span className="text-accent font-semibold tracking-wider text-xs sm:text-sm uppercase mb-3 block">
             Testimonials
@@ -96,7 +94,6 @@ export function Testimonials() {
           </button>
         </div>
 
-        {/* Infinite Scroll Marquee Container */}
         <div className="relative flex overflow-x-hidden group max-w-[100vw] -mx-4 px-4 sm:mx-0 sm:px-0">
           <div className="animate-marquee flex gap-6 py-4 whitespace-nowrap group-hover:[animation-play-state:paused]">
             {[...reviews, ...reviews].map((testimonial, index) => (
@@ -139,7 +136,6 @@ export function Testimonials() {
           <div className="absolute top-0 bottom-0 right-0 w-16 sm:w-32 bg-gradient-to-l from-background to-transparent z-10 pointer-events-none" />
         </div>
 
-        {/* Featured Video Testimonial */}
         <div className="mt-16 md:mt-24 mb-16 max-w-5xl mx-auto">
           <div className="bg-card border border-border rounded-3xl overflow-hidden shadow-2xl flex flex-col md:flex-row items-stretch">
             <div className="p-6 sm:p-8 md:p-12 flex flex-col justify-center flex-1 relative overflow-hidden">
@@ -182,7 +178,6 @@ export function Testimonials() {
           </div>
         </div>
 
-        {/* Telegram Vouch Panel */}
         <div className="mt-12 sm:mt-20 max-w-xl mx-auto">
           <Link href="https://t.me/VouchedZee" target="_blank" rel="noopener noreferrer" className="block group w-full relative overflow-hidden rounded-3xl">
             <div className="bg-card/50 backdrop-blur-sm border border-border rounded-3xl p-6 sm:p-8 flex items-center gap-6 hover:border-blue-500/50 transition-colors shadow-lg relative z-10">
@@ -202,7 +197,6 @@ export function Testimonials() {
 
       </div>
 
-      {/* Modal */}
       {isModalOpen && (
         <div className="fixed inset-0 z-50 bg-black/80 backdrop-blur-sm flex items-center justify-center p-4">
           <div className="bg-card border-2 border-border rounded-3xl max-w-md w-full p-6 sm:p-8 relative shadow-2xl">
