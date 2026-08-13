@@ -7,9 +7,9 @@ import Link from "next/link";
 export function Hero() {
   return (
     /* pt-28 adjusts top spacing cleanly right below the navbar */
-    <section className="relative w-full overflow-hidden pt-28 md:pt-32 pb-0 md:pb-4 text-center">
+    <section className="relative w-full pt-28 md:pt-32 pb-0 md:pb-4 text-center">
       {/* Background Glow */}
-      <div className="absolute inset-0 z-0 pointer-events-none overflow-hidden">
+      <div className="absolute inset-0 z-0 pointer-events-none">
         <div className="absolute left-1/2 -translate-x-1/2 top-[-20%] w-[150vw] h-[1000px] bg-[radial-gradient(ellipse_at_center,rgba(255,30,86,0.12)_0%,transparent_50%)]" />
       </div>
 
@@ -102,7 +102,7 @@ export function Hero() {
 //   return (
 //     <section className="relative w-full overflow-hidden pt-32 pb-20 text-center">
 //       {/* Background Glow */}
-//       <div className="absolute inset-0 z-0 pointer-events-none overflow-hidden">
+//       <div className="absolute inset-0 z-0 pointer-events-none">
 //         <div className="absolute left-1/2 -translate-x-1/2 top-[-20%] w-[150vw] h-[1000px] bg-[radial-gradient(ellipse_at_center,rgba(255,30,86,0.12)_0%,transparent_50%)]" />
 //       </div>
 

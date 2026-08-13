@@ -6,12 +6,12 @@ import { CheckCircle2, Heart, Clock } from "lucide-react";
 
 const stats = [
   {
-    value: () => <><AnimatedNumber value={120} />+</>,
+    value: () => <><AnimatedNumber value={100} />+</>,
     label: "Positive Client Reviews",
     icon: Heart,
   },
   {
-    value: () => <><AnimatedNumber value={100} />+</>,
+    value: () => <><AnimatedNumber value={120} />+</>,
     label: "Projects Delivered",
     icon: CheckCircle2,
   },

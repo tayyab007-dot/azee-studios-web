@@ -39,8 +39,14 @@
     100% { background-position: 0% 50%; }
   }
 
+  html {
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+  }
+
   body {
     @apply bg-background text-foreground transition-colors duration-500;
+    overflow-x: hidden;
     background-image: 
       radial-gradient(circle at top, var(--bg-glow-1), transparent 40%),
       radial-gradient(circle at bottom left, var(--bg-glow-2), transparent 45%),
