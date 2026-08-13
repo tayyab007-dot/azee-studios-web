@@ -14,7 +14,7 @@ import { Contact } from "@/components/contact";
 
 export default function Home() {
   return (
-    <main className="relative flex min-h-screen flex-col justify-between">
+    <main className="relative flex min-h-screen flex-col justify-between overflow-x-hidden">
       <NoiseTexture />
       <Hero />
       <Services />
