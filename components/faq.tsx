@@ -69,7 +69,7 @@ const faqCategories = [
 ];
 
 export function FAQ() {
-  const [openCategoryIndex, setOpenCategoryIndex] = React.useState<number | null>(0);
+  const [openCategoryIndex, setOpenCategoryIndex] = React.useState<number | null>(null);
   const [openFaqIndex, setOpenFaqIndex] = React.useState<number | null>(null);
 
   const toggleCategory = (index: number) => {
