@@ -108,8 +108,8 @@ export function Niches() {
                     muted
                     playsInline
                     className={`absolute inset-0 w-full h-full object-cover ${
-                      niche.videoUrl.includes('statue') || niche.videoUrl.includes('hero') || niche.videoUrl.includes('watch')
-                        ? 'object-[center_20%]'
+                      niche.videoUrl.includes('statue') || niche.videoUrl.includes('hero')
+                        ? 'object-[center_20%] md:object-center'
                         : 'object-center'
                     }`}
                   />
