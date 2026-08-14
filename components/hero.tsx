@@ -73,8 +73,7 @@ export function Hero() {
           transition={{ duration: 0.5, delay: 0.4 }}
           className="flex flex-col sm:flex-row items-center justify-center gap-4 sm:gap-6 text-sm font-medium text-muted-foreground w-full mb-0"
         >
-          <div className="flex items-center gap-2">
-            <CheckCircle2 className="w-5 h-5 text-accent" />
+          <div className="flex items-center justify-center w-full">
             <span>120+ projects shipped</span>
           </div>
         </motion.div>

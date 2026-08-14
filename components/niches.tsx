@@ -1,12 +1,12 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { Shield } from "lucide-react";
+import { Shield, Landmark, ShoppingCart, Heart, Gamepad2, Briefcase } from "lucide-react";
 
 const niches = [
   {
     num: "01",
-    icon: "🏛️",
+    icon: <Landmark className="w-8 h-8 md:w-10 md:h-10" />,
     title: "Art & Culture",
     tagline: "Immersive. Timeless. Expressive.",
     description: "Elegant and visually immersive websites for brands that celebrate art, culture, history, and creativity.",
@@ -14,7 +14,7 @@ const niches = [
   },
   {
     num: "02",
-    icon: "🛒",
+    icon: <ShoppingCart className="w-8 h-8 md:w-10 md:h-10" />,
     title: "E-Commerce",
     tagline: "Seamless. Engaging. Converting.",
     description: "Conversion-focused e-commerce websites designed to deliver smooth shopping experiences and drive sales.",
@@ -22,7 +22,7 @@ const niches = [
   },
   {
     num: "03",
-    icon: "🤍",
+    icon: <Heart className="w-8 h-8 md:w-10 md:h-10 fill-current" />,
     title: "Health & Wellness",
     tagline: "Calming. Trustworthy. Human.",
     description: "Clean and approachable websites for healthcare, wellness, and lifestyle brands that build trust and care.",
@@ -30,7 +30,7 @@ const niches = [
   },
   {
     num: "04",
-    icon: "🎮",
+    icon: <Gamepad2 className="w-8 h-8 md:w-10 md:h-10" />,
     title: "Gaming & Entertainment",
     tagline: "Bold. Dynamic. Immersive.",
     description: "High-impact websites for gaming studios, entertainment brands, and immersive digital experiences.",
@@ -38,7 +38,7 @@ const niches = [
   },
   {
     num: "05",
-    icon: "💼",
+    icon: <Briefcase className="w-8 h-8 md:w-10 md:h-10" />,
     title: "Business & Corporate",
     tagline: "Professional. Clean. Trustworthy.",
     description: "Minimal and performance-driven websites for corporate brands, startups, and consulting businesses.",
@@ -80,7 +80,7 @@ export function Niches() {
               <div className="p-6 md:p-14 flex flex-col justify-center w-full md:w-[45%] relative">
                 <div className="flex items-center gap-3 mb-4 md:mb-6">
                   <span className="text-accent font-bold text-2xl md:text-4xl">{niche.num}</span>
-                  <div className="text-3xl md:text-4xl opacity-80">{niche.icon}</div>
+                  <div className="flex items-center justify-center opacity-80">{niche.icon}</div>
                 </div>
                 <h3 className="text-2xl md:text-4xl font-bold mb-2 md:mb-3">{niche.title}</h3>
                 <p className="text-accent font-medium mb-4 md:mb-6 text-base md:text-lg">{niche.tagline}</p>
