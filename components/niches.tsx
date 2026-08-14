@@ -22,7 +22,7 @@ const niches = [
   },
   {
     num: "03",
-    icon: <Heart className="w-8 h-8 md:w-10 md:h-10 fill-current" />,
+    icon: <Heart className="w-8 h-8 md:w-10 md:h-10" />,
     title: "Health & Wellness",
     tagline: "Calming. Trustworthy. Human.",
     description: "Clean and approachable websites for healthcare, wellness, and lifestyle brands that build trust and care.",
