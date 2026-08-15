@@ -78,7 +78,7 @@ export function PortfolioGallery() {
 
     const PREFERRED_KEYWORDS: Record<string, string[]> = {
       // 1: V logo, 2: D logo, 3: H logo, 4: Chat logo
-      "logos": ["photo_16_", "photo_24_", "photo_30_", "photo_18_"],
+      "logos": ["photo_3_", "photo_4_", "photo_40_", "photo_37_"],
       "posts": [],
       "motion-graphics": []
     };
