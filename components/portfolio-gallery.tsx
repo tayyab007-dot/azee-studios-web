@@ -79,8 +79,10 @@ export function PortfolioGallery() {
     const PREFERRED_KEYWORDS: Record<string, string[]> = {
       // 1: V logo, 2: D logo, 3: H logo, 4: Chat logo
       "logos": ["photo_3_", "photo_4_", "photo_40_", "photo_37_"],
-      "posts": [],
-      "motion-graphics": []
+      // 1: Tate, 2: Payment Methods
+      "posts": ["photo_1_17", "photo_22_"],
+      // 1: Forbes, 2: Charter, 3: Hashium, 4: Ascend
+      "motion-graphics": ["video_1_25", "9.16.16 AM (1)", "9.16.15 AM", "motion graphics"]
     };
 
     uniqueAssets.sort((a, b) => {
