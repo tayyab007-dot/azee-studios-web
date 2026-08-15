@@ -2,7 +2,7 @@
 
 import { useState, useEffect, useMemo } from "react";
 import { motion, AnimatePresence } from "framer-motion";
-import { Play } from "lucide-react";
+import { Play, X } from "lucide-react";
 
 interface PortfolioAsset {
   _id: string;
@@ -27,6 +27,7 @@ export function PortfolioGallery() {
   const [allAssets, setAllAssets] = useState<PortfolioAsset[]>([]);
   const [loading, setLoading] = useState<boolean>(true);
   const [visibleCount, setVisibleCount] = useState<number>(6);
+  const [selectedAsset, setSelectedAsset] = useState<PortfolioAsset | null>(null);
 
   useEffect(() => {
     const handleSetTab = (e: any) => {
@@ -74,6 +75,12 @@ export function PortfolioGallery() {
         uniqueAssets.push(item);
       }
     }
+
+    uniqueAssets.sort((a, b) => {
+      const titleA = a.title || "";
+      const titleB = b.title || "";
+      return titleA.localeCompare(titleB, undefined, { numeric: true, sensitivity: 'base' });
+    });
 
     return uniqueAssets;
   }, [allAssets, activeTab]);
@@ -141,7 +148,10 @@ export function PortfolioGallery() {
                   transition={{ duration: 0.2 }}
                   className="w-full sm:w-[calc(50%-0.75rem)] lg:w-[calc(33.333%-1rem)] group relative break-inside-avoid rounded-2xl overflow-hidden bg-card border border-black/20 dark:border-white/20 hover:border-accent dark:hover:border-accent shadow-md transition-all duration-300"
                 >
-                  <div className="relative w-full overflow-hidden bg-muted/20 aspect-[4/3] sm:aspect-square md:aspect-[4/3]">
+                  <div 
+                    className="relative w-full overflow-hidden bg-muted/20 aspect-[4/3] sm:aspect-square md:aspect-[4/3] cursor-pointer"
+                    onClick={() => setSelectedAsset(asset)}
+                  >
                     {asset.type === "video" ? (
                       <div className="relative w-full h-full">
                         <video
@@ -197,6 +207,49 @@ export function PortfolioGallery() {
           </div>
         )}
       </div>
+
+      {/* Full-Screen Lightbox Modal */}
+      <AnimatePresence>
+        {selectedAsset && (
+          <motion.div
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            exit={{ opacity: 0 }}
+            className="fixed inset-0 z-[1000] flex items-center justify-center bg-black/90 p-4 sm:p-8 backdrop-blur-sm"
+            onClick={() => setSelectedAsset(null)}
+          >
+            <button
+              className="absolute top-6 right-6 text-white/70 hover:text-white transition-colors bg-black/50 p-2 rounded-full"
+              onClick={() => setSelectedAsset(null)}
+            >
+              <X className="w-6 h-6" />
+            </button>
+            <motion.div
+              initial={{ scale: 0.95, opacity: 0 }}
+              animate={{ scale: 1, opacity: 1 }}
+              exit={{ scale: 0.95, opacity: 0 }}
+              transition={{ duration: 0.2 }}
+              className="relative max-w-5xl w-full max-h-[90vh] flex items-center justify-center"
+              onClick={(e) => e.stopPropagation()}
+            >
+              {selectedAsset.type === "video" ? (
+                <video
+                  src={selectedAsset.url}
+                  autoPlay
+                  controls
+                  className="max-w-full max-h-[90vh] object-contain rounded-xl shadow-2xl"
+                />
+              ) : (
+                <img
+                  src={selectedAsset.url}
+                  alt={selectedAsset.title || "Portfolio Item"}
+                  className="max-w-full max-h-[90vh] object-contain rounded-xl shadow-2xl"
+                />
+              )}
+            </motion.div>
+          </motion.div>
+        )}
+      </AnimatePresence>
     </section>
   );
 }
