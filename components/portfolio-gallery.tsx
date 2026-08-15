@@ -87,7 +87,7 @@ export function PortfolioGallery() {
       const getRank = (item: PortfolioAsset) => {
         const keywords = PREFERRED_KEYWORDS[activeTab.toLowerCase().trim()] || [];
         for (let i = 0; i < keywords.length; i++) {
-          if (item.url.includes(keywords[i])) return i;
+          if (item.url && item.url.includes(keywords[i])) return i;
         }
         return 999; // Default rank for everything else
       };
