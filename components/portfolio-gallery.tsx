@@ -76,7 +76,39 @@ export function PortfolioGallery() {
       }
     }
 
+    const PREFERRED_KEYWORDS: Record<string, string[]> = {
+      "logos": ["v.png", "v.jpg", "v-logo", "d.png", "d.jpg", "d-logo", "h.png", "h.jpg", "h-logo", "chat"],
+      "posts": ["tate", "spotify", "payment", "forbes"],
+      "motion-graphics": ["forbes", "ascend", "app", "azee"]
+    };
+
     uniqueAssets.sort((a, b) => {
+      const getRank = (item: PortfolioAsset) => {
+        const str = (item.title + " " + item.url).toLowerCase();
+        
+        // 1. Explicit number in title (e.g. "1", "2")
+        const titleNum = parseInt(item.title, 10);
+        if (!isNaN(titleNum) && titleNum > 0) return titleNum;
+
+        // 2. Keyword matching for known favorites
+        const keywords = PREFERRED_KEYWORDS[activeTab.toLowerCase().trim()] || [];
+        for (let i = 0; i < keywords.length; i++) {
+          if (str.includes(keywords[i])) return 20 + i;
+        }
+
+        // 3. Extracted number from URL (e.g. photo_3 -> 3)
+        const match = item.url.match(/(?:photo|video)_(\d+)/i);
+        if (match) return 100 + parseInt(match[1], 10);
+
+        return 999;
+      };
+
+      const rankA = getRank(a);
+      const rankB = getRank(b);
+
+      if (rankA !== rankB) return rankA - rankB;
+
+      // Fallback
       const titleA = a.title || "";
       const titleB = b.title || "";
       return titleA.localeCompare(titleB, undefined, { numeric: true, sensitivity: 'base' });
