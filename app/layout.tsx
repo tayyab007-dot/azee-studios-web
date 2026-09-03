@@ -4,6 +4,7 @@ import "./globals.css";
 import { ThemeProvider } from "@/components/theme-provider";
 import { Navbar } from "@/components/navbar";
 import { Footer } from "@/components/footer";
+import { StartupLoader } from "@/components/startup-loader";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -31,6 +32,7 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning>
       <body className={`${inter.className} antialiased selection:bg-accent/30 selection:text-foreground`}>
+        <StartupLoader />
         <ThemeProvider
           attribute="class"
           defaultTheme="dark"
