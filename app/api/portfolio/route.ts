@@ -10,7 +10,10 @@ export async function GET(req: Request) {
     await connectToDatabase();
 
     const query = category && category !== "all" ? { category } : {};
-    const items = await PortfolioItem.find(query).sort({ createdAt: -1 });
+    const items = await PortfolioItem.find(query)
+      .select("_id idString category type url title")
+      .sort({ createdAt: -1 })
+      .lean();
 
     const validItems = items.filter(item => {
       const url = item.url || '';

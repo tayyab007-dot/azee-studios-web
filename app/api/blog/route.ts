@@ -7,7 +7,10 @@ export async function GET() {
   try {
     await connectToDatabase();
 
-    const posts = await BlogPost.find({ published: true }).sort({ createdAt: -1 });
+    const posts = await BlogPost.find({ published: true })
+      .select("_id title slug excerpt category readTime coverImage createdAt")
+      .sort({ createdAt: -1 })
+      .lean();
 
     return NextResponse.json({ posts }, {
       status: 200,
