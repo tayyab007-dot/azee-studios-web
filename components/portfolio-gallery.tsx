@@ -44,12 +44,23 @@ export function PortfolioGallery() {
         const res = await fetch("/api/portfolio");
         const data = await res.json();
         if (res.ok && Array.isArray(data.items)) {
+          const firstImages = data.items
+            .filter((item: PortfolioAsset) => item.type === "image")
+            .slice(0, 6)
+            .map((item: PortfolioAsset) => item.url);
+          await Promise.all(firstImages.map((url: string) => new Promise<void>((resolve) => {
+            const image = new Image();
+            image.onload = () => resolve();
+            image.onerror = () => resolve();
+            image.src = url;
+          })));
           setAllAssets(data.items);
         }
       } catch (error) {
         console.error("Failed to load portfolio items:", error);
       } finally {
         setLoading(false);
+        window.dispatchEvent(new Event("portfolio-ready"));
       }
     }
 

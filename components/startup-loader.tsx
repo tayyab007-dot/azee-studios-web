@@ -6,19 +6,38 @@ export function StartupLoader() {
   const [visible, setVisible] = useState(true);
 
   useEffect(() => {
-    const hideLoader = () => {
-      window.setTimeout(() => setVisible(false), 250);
+    let pageLoaded = document.readyState === "complete";
+    let readySources = 0;
+
+    const hideWhenReady = () => {
+      if (pageLoaded && readySources === 2) {
+        window.setTimeout(() => setVisible(false), 250);
+      }
     };
 
-    if (document.readyState === "complete") {
-      hideLoader();
-    } else {
-      window.addEventListener("load", hideLoader, { once: true });
-    }
+    const handleWindowLoad = () => {
+      pageLoaded = true;
+      hideWhenReady();
+    };
 
-    const fallback = window.setTimeout(() => setVisible(false), 1800);
+    const handleContentReady = () => {
+      readySources += 1;
+      hideWhenReady();
+    };
+
+    if (!pageLoaded) {
+      window.addEventListener("load", handleWindowLoad, { once: true });
+    } else {
+      handleWindowLoad();
+    }
+    window.addEventListener("portfolio-ready", handleContentReady, { once: true });
+    window.addEventListener("blog-ready", handleContentReady, { once: true });
+
+    const fallback = window.setTimeout(() => setVisible(false), 4000);
     return () => {
-      window.removeEventListener("load", hideLoader);
+      window.removeEventListener("load", handleWindowLoad);
+      window.removeEventListener("portfolio-ready", handleContentReady);
+      window.removeEventListener("blog-ready", handleContentReady);
       window.clearTimeout(fallback);
     };
   }, []);

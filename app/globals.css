@@ -72,7 +72,6 @@
     display: grid;
     place-items: center;
     background: hsl(var(--background));
-    animation: startup-loader-exit 0.45s ease 1.35s forwards;
     pointer-events: none;
   }
 

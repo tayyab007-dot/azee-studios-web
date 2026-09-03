@@ -26,12 +26,20 @@ export function Blog() {
         const res = await fetch("/api/blog");
         const data = await res.json();
         if (res.ok) {
-          setPosts(data.posts || []);
+          const nextPosts = data.posts || [];
+          await Promise.all(nextPosts.slice(0, 3).map((post: BlogPostItem) => new Promise<void>((resolve) => {
+            const image = new Image();
+            image.onload = () => resolve();
+            image.onerror = () => resolve();
+            image.src = post.coverImage || FALLBACK_BLOG_IMAGE;
+          })));
+          setPosts(nextPosts);
         }
       } catch (err) {
         console.error("Failed to load blog posts:", err);
       } finally {
         setLoading(false);
+        window.dispatchEvent(new Event("blog-ready"));
       }
     }
 
