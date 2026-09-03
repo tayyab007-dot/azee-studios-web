@@ -23,6 +23,33 @@ const categories = [
 
 const FALLBACK_IMAGE = "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?q=80&w=800&auto=format&fit=crop";
 
+function PortfolioVideo({ asset }: { asset: PortfolioAsset }) {
+  const [isLoading, setIsLoading] = useState(true);
+
+  return (
+    <div className="relative w-full h-full">
+      <LazyVideo
+        src={asset.url}
+        autoPlay
+        loop
+        muted
+        playsInline
+        onCanPlay={() => setIsLoading(false)}
+        onError={() => setIsLoading(false)}
+        className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500 ease-in-out"
+      />
+      {isLoading && (
+        <div className="absolute inset-0 flex items-center justify-center bg-background/40 backdrop-blur-[2px]">
+          <div className="h-10 w-10 animate-spin rounded-full border-4 border-accent/30 border-t-accent" role="status" aria-label="Loading video" />
+        </div>
+      )}
+      <div className="absolute top-4 right-4 bg-black/50 backdrop-blur-md p-2 rounded-full text-white/90">
+        <Play className="w-4 h-4 fill-current" />
+      </div>
+    </div>
+  );
+}
+
 export function PortfolioGallery() {
   const [activeTab, setActiveTab] = useState("logos");
   const [allAssets, setAllAssets] = useState<PortfolioAsset[]>([]);
@@ -183,19 +210,7 @@ export function PortfolioGallery() {
                     onClick={() => setSelectedAsset(asset)}
                   >
                     {asset.type === "video" ? (
-                      <div className="relative w-full h-full">
-                        <LazyVideo
-                          src={asset.url}
-                          autoPlay
-                          loop
-                          muted
-                          playsInline
-                          className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500 ease-in-out"
-                        />
-                        <div className="absolute top-4 right-4 bg-black/50 backdrop-blur-md p-2 rounded-full text-white/90">
-                          <Play className="w-4 h-4 fill-current" />
-                        </div>
-                      </div>
+                      <PortfolioVideo asset={asset} />
                     ) : (
                       <img
                         src={asset.url}
