@@ -172,7 +172,7 @@ export function Testimonials() {
                 controls
                 controlsList="nodownload"
                 playsInline
-                preload="none"
+                preload="metadata"
                 className="w-full max-h-[400px] md:max-h-[500px] object-contain" 
               />
             </div>
