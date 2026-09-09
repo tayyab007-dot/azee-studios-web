@@ -22,17 +22,17 @@ export function Footer() {
               <Link href="https://t.me/azeestudios" target="_blank" rel="noopener noreferrer" className="w-10 h-10 rounded-full bg-background border border-border flex items-center justify-center text-muted-foreground hover:text-foreground hover:border-accent transition-colors">
                 <span className="sr-only">Telegram</span>
                 {/* replace with real asset - Telegram Icon */}
-                <img src="/logos/telegram logo.avif" alt="Telegram" className="w-5 h-5 object-contain opacity-80 group-hover:opacity-100 transition-opacity" />
+                <img src="/logos/telegram logo.webp" alt="Telegram" className="w-5 h-5 object-contain opacity-80 group-hover:opacity-100 transition-opacity" />
               </Link>
               <Link href="https://instagram.com/azee.studios" target="_blank" rel="noopener noreferrer" className="w-10 h-10 rounded-full bg-background border border-border flex items-center justify-center text-muted-foreground hover:text-foreground hover:border-accent transition-colors">
                 <span className="sr-only">Instagram</span>
                 {/* replace with real asset - Instagram Icon */}
-                <img src="/logos/instagram logo.avif" alt="Instagram" className="w-5 h-5 object-contain opacity-80 group-hover:opacity-100 transition-opacity" />
+                <img src="/logos/instagram logo.webp" alt="Instagram" className="w-5 h-5 object-contain opacity-80 group-hover:opacity-100 transition-opacity" />
               </Link>
               <Link href="https://www.linkedin.com/company/azeestudios/" target="_blank" rel="noopener noreferrer" className="w-10 h-10 rounded-full bg-background border border-border flex items-center justify-center text-muted-foreground hover:text-foreground hover:border-accent transition-colors">
                 <span className="sr-only">LinkedIn</span>
                 {/* replace with real asset - LinkedIn Icon */}
-                <img src="/logos/linkedin logo.avif" alt="LinkedIn" className="w-5 h-5 object-contain opacity-80 group-hover:opacity-100 transition-opacity" />
+                <img src="/logos/linkedin logo.webp" alt="LinkedIn" className="w-5 h-5 object-contain opacity-80 group-hover:opacity-100 transition-opacity" />
               </Link>
             </div>
           </div>

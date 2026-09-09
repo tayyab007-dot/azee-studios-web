@@ -9,8 +9,15 @@ export async function GET() {
 
     const posts = await BlogPost.find({ published: true }).sort({ createdAt: -1 }).lean();
 
+    const validPosts = posts.map(post => {
+      if (post.coverImage) {
+        post.coverImage = post.coverImage.replace(/\.(png|jpg|jpeg)$/i, '.webp');
+      }
+      return post;
+    });
+
     return NextResponse.json(
-      { posts },
+      { posts: validPosts },
       {
         status: 200,
         headers: {

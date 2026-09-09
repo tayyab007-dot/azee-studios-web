@@ -166,7 +166,7 @@ export function Contact() {
           <motion.div initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ delay: 0.1 }} className="h-full">
             <Link href="https://t.me/azeestudios" target="_blank" rel="noopener noreferrer" className="group bg-card border border-black/20 dark:border-white/20 rounded-3xl p-8 flex flex-col items-center text-center gap-4 hover:border-accent dark:hover:border-accent shadow-sm hover:shadow-xl transition-all duration-300 h-full">
               <div className="w-20 h-20 rounded-full bg-accent/10 text-accent flex items-center justify-center shrink-0 group-hover:bg-accent group-hover:text-white transition-all duration-500 shadow-inner">
-                <img src="/logos/telegram logo.avif" alt="Telegram" className="w-12 h-12 object-contain rounded-xl drop-shadow-[0_0_15px_rgba(255,30,86,0.4)] transition-all duration-500" />
+                <img src="/logos/telegram logo.webp" alt="Telegram" className="w-12 h-12 object-contain rounded-xl drop-shadow-[0_0_15px_rgba(255,30,86,0.4)] transition-all duration-500" />
               </div>
               <div>
                 <h4 className="font-bold text-xl mb-2">Telegram</h4>
@@ -180,7 +180,7 @@ export function Contact() {
           <motion.div initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ delay: 0.2 }} className="h-full">
             <Link href="https://instagram.com/azee.studios" target="_blank" rel="noopener noreferrer" className="group bg-card border border-black/20 dark:border-white/20 rounded-3xl p-8 flex flex-col items-center text-center gap-4 hover:border-accent dark:hover:border-accent shadow-sm hover:shadow-xl transition-all duration-300 h-full">
               <div className="w-20 h-20 rounded-full bg-accent/10 text-accent flex items-center justify-center shrink-0 group-hover:bg-accent group-hover:text-white transition-all duration-500 shadow-inner">
-                <img src="/logos/instagram logo.avif" alt="Instagram" className="w-12 h-12 object-contain rounded-xl drop-shadow-[0_0_15px_rgba(255,30,86,0.4)] transition-all duration-500" />
+                <img src="/logos/instagram logo.webp" alt="Instagram" className="w-12 h-12 object-contain rounded-xl drop-shadow-[0_0_15px_rgba(255,30,86,0.4)] transition-all duration-500" />
               </div>
               <div>
                 <h4 className="font-bold text-xl mb-2">Instagram</h4>
@@ -194,7 +194,7 @@ export function Contact() {
           <motion.div initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ delay: 0.3 }} className="h-full">
             <Link href="https://www.linkedin.com/company/azeestudios/" target="_blank" rel="noopener noreferrer" className="group bg-card border border-black/20 dark:border-white/20 rounded-3xl p-8 flex flex-col items-center text-center gap-4 hover:border-accent dark:hover:border-accent shadow-sm hover:shadow-xl transition-all duration-300 h-full">
               <div className="w-20 h-20 rounded-full bg-accent/10 text-accent flex items-center justify-center shrink-0 group-hover:bg-accent group-hover:text-white transition-all duration-500 shadow-inner">
-                <img src="/logos/linkedin logo.avif" alt="LinkedIn" className="w-12 h-12 object-contain rounded-xl drop-shadow-[0_0_15px_rgba(255,30,86,0.4)] transition-all duration-500" />
+                <img src="/logos/linkedin logo.webp" alt="LinkedIn" className="w-12 h-12 object-contain rounded-xl drop-shadow-[0_0_15px_rgba(255,30,86,0.4)] transition-all duration-500" />
               </div>
               <div>
                 <h4 className="font-bold text-xl mb-2">LinkedIn</h4>
