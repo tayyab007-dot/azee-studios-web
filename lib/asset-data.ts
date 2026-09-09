@@ -9,375 +9,375 @@ export type Asset = {
 
 export const portfolioAssets: Asset[] = [
   {
-    "id": "logos-photo_9_04-11-2023_00-20-10.jpg",
+    "id": "logos-photo_9_04-11-2023_00-20-10.webp",
     "category": "logos",
     "type": "image",
-    "url": "/assets/logos/photo_9_04-11-2023_00-20-10.jpg",
-    "title": "photo_9_04-11-2023_00-20-10.jpg"
+    "url": "/assets/logos/photo_9_04-11-2023_00-20-10.webp",
+    "title": "photo_9_04-11-2023_00-20-10.webp"
   },
   {
-    "id": "logos-photo_8_04-11-2023_00-20-10.jpg",
+    "id": "logos-photo_8_04-11-2023_00-20-10.webp",
     "category": "logos",
     "type": "image",
-    "url": "/assets/logos/photo_8_04-11-2023_00-20-10.jpg",
-    "title": "photo_8_04-11-2023_00-20-10.jpg"
+    "url": "/assets/logos/photo_8_04-11-2023_00-20-10.webp",
+    "title": "photo_8_04-11-2023_00-20-10.webp"
   },
   {
-    "id": "logos-photo_7_04-11-2023_00-19-43.jpg",
+    "id": "logos-photo_7_04-11-2023_00-19-43.webp",
     "category": "logos",
     "type": "image",
-    "url": "/assets/logos/photo_7_04-11-2023_00-19-43.jpg",
-    "title": "photo_7_04-11-2023_00-19-43.jpg"
+    "url": "/assets/logos/photo_7_04-11-2023_00-19-43.webp",
+    "title": "photo_7_04-11-2023_00-19-43.webp"
   },
   {
-    "id": "logos-photo_6_03-11-2023_20-38-59.jpg",
+    "id": "logos-photo_6_03-11-2023_20-38-59.webp",
     "category": "logos",
     "type": "image",
-    "url": "/assets/logos/photo_6_03-11-2023_20-38-59.jpg",
-    "title": "photo_6_03-11-2023_20-38-59.jpg"
+    "url": "/assets/logos/photo_6_03-11-2023_20-38-59.webp",
+    "title": "photo_6_03-11-2023_20-38-59.webp"
   },
   {
-    "id": "logos-photo_5_03-11-2023_20-38-59.jpg",
+    "id": "logos-photo_5_03-11-2023_20-38-59.webp",
     "category": "logos",
     "type": "image",
-    "url": "/assets/logos/photo_5_03-11-2023_20-38-59.jpg",
-    "title": "photo_5_03-11-2023_20-38-59.jpg"
+    "url": "/assets/logos/photo_5_03-11-2023_20-38-59.webp",
+    "title": "photo_5_03-11-2023_20-38-59.webp"
   },
   {
-    "id": "logos-photo_4_04-10-2023_04-41-49.jpg",
+    "id": "logos-photo_4_04-10-2023_04-41-49.webp",
     "category": "logos",
     "type": "image",
-    "url": "/assets/logos/photo_4_04-10-2023_04-41-49.jpg",
-    "title": "photo_4_04-10-2023_04-41-49.jpg"
+    "url": "/assets/logos/photo_4_04-10-2023_04-41-49.webp",
+    "title": "photo_4_04-10-2023_04-41-49.webp"
   },
   {
-    "id": "logos-photo_40_15-02-2026_01-04-49.jpg",
+    "id": "logos-photo_40_15-02-2026_01-04-49.webp",
     "category": "logos",
     "type": "image",
-    "url": "/assets/logos/photo_40_15-02-2026_01-04-49.jpg",
-    "title": "photo_40_15-02-2026_01-04-49.jpg"
+    "url": "/assets/logos/photo_40_15-02-2026_01-04-49.webp",
+    "title": "photo_40_15-02-2026_01-04-49.webp"
   },
   {
-    "id": "logos-photo_3_03-10-2023_10-41-19.jpg",
+    "id": "logos-photo_3_03-10-2023_10-41-19.webp",
     "category": "logos",
     "type": "image",
-    "url": "/assets/logos/photo_3_03-10-2023_10-41-19.jpg",
-    "title": "photo_3_03-10-2023_10-41-19.jpg"
+    "url": "/assets/logos/photo_3_03-10-2023_10-41-19.webp",
+    "title": "photo_3_03-10-2023_10-41-19.webp"
   },
   {
-    "id": "logos-photo_39_17-10-2025_23-25-25.jpg",
+    "id": "logos-photo_39_17-10-2025_23-25-25.webp",
     "category": "logos",
     "type": "image",
-    "url": "/assets/logos/photo_39_17-10-2025_23-25-25.jpg",
-    "title": "photo_39_17-10-2025_23-25-25.jpg"
+    "url": "/assets/logos/photo_39_17-10-2025_23-25-25.webp",
+    "title": "photo_39_17-10-2025_23-25-25.webp"
   },
   {
-    "id": "logos-photo_38_04-08-2025_02-06-09.jpg",
+    "id": "logos-photo_38_04-08-2025_02-06-09.webp",
     "category": "logos",
     "type": "image",
-    "url": "/assets/logos/photo_38_04-08-2025_02-06-09.jpg",
-    "title": "photo_38_04-08-2025_02-06-09.jpg"
+    "url": "/assets/logos/photo_38_04-08-2025_02-06-09.webp",
+    "title": "photo_38_04-08-2025_02-06-09.webp"
   },
   {
-    "id": "logos-photo_37_04-08-2025_02-05-46.jpg",
+    "id": "logos-photo_37_04-08-2025_02-05-46.webp",
     "category": "logos",
     "type": "image",
-    "url": "/assets/logos/photo_37_04-08-2025_02-05-46.jpg",
-    "title": "photo_37_04-08-2025_02-05-46.jpg"
+    "url": "/assets/logos/photo_37_04-08-2025_02-05-46.webp",
+    "title": "photo_37_04-08-2025_02-05-46.webp"
   },
   {
-    "id": "logos-photo_36_04-08-2025_02-05-46.jpg",
+    "id": "logos-photo_36_04-08-2025_02-05-46.webp",
     "category": "logos",
     "type": "image",
-    "url": "/assets/logos/photo_36_04-08-2025_02-05-46.jpg",
-    "title": "photo_36_04-08-2025_02-05-46.jpg"
+    "url": "/assets/logos/photo_36_04-08-2025_02-05-46.webp",
+    "title": "photo_36_04-08-2025_02-05-46.webp"
   },
   {
-    "id": "logos-photo_35_07-03-2025_01-36-11.jpg",
+    "id": "logos-photo_35_07-03-2025_01-36-11.webp",
     "category": "logos",
     "type": "image",
-    "url": "/assets/logos/photo_35_07-03-2025_01-36-11.jpg",
-    "title": "photo_35_07-03-2025_01-36-11.jpg"
+    "url": "/assets/logos/photo_35_07-03-2025_01-36-11.webp",
+    "title": "photo_35_07-03-2025_01-36-11.webp"
   },
   {
-    "id": "logos-photo_34_07-03-2025_01-36-11.jpg",
+    "id": "logos-photo_34_07-03-2025_01-36-11.webp",
     "category": "logos",
     "type": "image",
-    "url": "/assets/logos/photo_34_07-03-2025_01-36-11.jpg",
-    "title": "photo_34_07-03-2025_01-36-11.jpg"
+    "url": "/assets/logos/photo_34_07-03-2025_01-36-11.webp",
+    "title": "photo_34_07-03-2025_01-36-11.webp"
   },
   {
-    "id": "logos-photo_33_07-03-2025_01-36-11.jpg",
+    "id": "logos-photo_33_07-03-2025_01-36-11.webp",
     "category": "logos",
     "type": "image",
-    "url": "/assets/logos/photo_33_07-03-2025_01-36-11.jpg",
-    "title": "photo_33_07-03-2025_01-36-11.jpg"
+    "url": "/assets/logos/photo_33_07-03-2025_01-36-11.webp",
+    "title": "photo_33_07-03-2025_01-36-11.webp"
   },
   {
-    "id": "logos-photo_32_04-01-2025_18-02-58.jpg",
+    "id": "logos-photo_32_04-01-2025_18-02-58.webp",
     "category": "logos",
     "type": "image",
-    "url": "/assets/logos/photo_32_04-01-2025_18-02-58.jpg",
-    "title": "photo_32_04-01-2025_18-02-58.jpg"
+    "url": "/assets/logos/photo_32_04-01-2025_18-02-58.webp",
+    "title": "photo_32_04-01-2025_18-02-58.webp"
   },
   {
-    "id": "logos-photo_31_03-12-2024_00-01-08.jpg",
+    "id": "logos-photo_31_03-12-2024_00-01-08.webp",
     "category": "logos",
     "type": "image",
-    "url": "/assets/logos/photo_31_03-12-2024_00-01-08.jpg",
-    "title": "photo_31_03-12-2024_00-01-08.jpg"
+    "url": "/assets/logos/photo_31_03-12-2024_00-01-08.webp",
+    "title": "photo_31_03-12-2024_00-01-08.webp"
   },
   {
-    "id": "logos-photo_30_19-09-2024_19-21-23.jpg",
+    "id": "logos-photo_30_19-09-2024_19-21-23.webp",
     "category": "logos",
     "type": "image",
-    "url": "/assets/logos/photo_30_19-09-2024_19-21-23.jpg",
-    "title": "photo_30_19-09-2024_19-21-23.jpg"
+    "url": "/assets/logos/photo_30_19-09-2024_19-21-23.webp",
+    "title": "photo_30_19-09-2024_19-21-23.webp"
   },
   {
-    "id": "logos-photo_2_11-09-2023_02-52-57.jpg",
+    "id": "logos-photo_2_11-09-2023_02-52-57.webp",
     "category": "logos",
     "type": "image",
-    "url": "/assets/logos/photo_2_11-09-2023_02-52-57.jpg",
-    "title": "photo_2_11-09-2023_02-52-57.jpg"
+    "url": "/assets/logos/photo_2_11-09-2023_02-52-57.webp",
+    "title": "photo_2_11-09-2023_02-52-57.webp"
   },
   {
-    "id": "logos-photo_29_19-09-2024_19-21-13.jpg",
+    "id": "logos-photo_29_19-09-2024_19-21-13.webp",
     "category": "logos",
     "type": "image",
-    "url": "/assets/logos/photo_29_19-09-2024_19-21-13.jpg",
-    "title": "photo_29_19-09-2024_19-21-13.jpg"
+    "url": "/assets/logos/photo_29_19-09-2024_19-21-13.webp",
+    "title": "photo_29_19-09-2024_19-21-13.webp"
   },
   {
-    "id": "logos-photo_28_19-09-2024_19-21-13.jpg",
+    "id": "logos-photo_28_19-09-2024_19-21-13.webp",
     "category": "logos",
     "type": "image",
-    "url": "/assets/logos/photo_28_19-09-2024_19-21-13.jpg",
-    "title": "photo_28_19-09-2024_19-21-13.jpg"
+    "url": "/assets/logos/photo_28_19-09-2024_19-21-13.webp",
+    "title": "photo_28_19-09-2024_19-21-13.webp"
   },
   {
-    "id": "logos-photo_27_19-09-2024_19-20-53.jpg",
+    "id": "logos-photo_27_19-09-2024_19-20-53.webp",
     "category": "logos",
     "type": "image",
-    "url": "/assets/logos/photo_27_19-09-2024_19-20-53.jpg",
-    "title": "photo_27_19-09-2024_19-20-53.jpg"
+    "url": "/assets/logos/photo_27_19-09-2024_19-20-53.webp",
+    "title": "photo_27_19-09-2024_19-20-53.webp"
   },
   {
-    "id": "logos-photo_26_19-09-2024_19-20-27.jpg",
+    "id": "logos-photo_26_19-09-2024_19-20-27.webp",
     "category": "logos",
     "type": "image",
-    "url": "/assets/logos/photo_26_19-09-2024_19-20-27.jpg",
-    "title": "photo_26_19-09-2024_19-20-27.jpg"
+    "url": "/assets/logos/photo_26_19-09-2024_19-20-27.webp",
+    "title": "photo_26_19-09-2024_19-20-27.webp"
   },
   {
-    "id": "logos-photo_25_09-09-2024_20-14-05.jpg",
+    "id": "logos-photo_25_09-09-2024_20-14-05.webp",
     "category": "logos",
     "type": "image",
-    "url": "/assets/logos/photo_25_09-09-2024_20-14-05.jpg",
-    "title": "photo_25_09-09-2024_20-14-05.jpg"
+    "url": "/assets/logos/photo_25_09-09-2024_20-14-05.webp",
+    "title": "photo_25_09-09-2024_20-14-05.webp"
   },
   {
-    "id": "logos-photo_24_01-09-2024_02-23-20.jpg",
+    "id": "logos-photo_24_01-09-2024_02-23-20.webp",
     "category": "logos",
     "type": "image",
-    "url": "/assets/logos/photo_24_01-09-2024_02-23-20.jpg",
-    "title": "photo_24_01-09-2024_02-23-20.jpg"
+    "url": "/assets/logos/photo_24_01-09-2024_02-23-20.webp",
+    "title": "photo_24_01-09-2024_02-23-20.webp"
   },
   {
-    "id": "logos-photo_23_30-08-2024_23-37-18.jpg",
+    "id": "logos-photo_23_30-08-2024_23-37-18.webp",
     "category": "logos",
     "type": "image",
-    "url": "/assets/logos/photo_23_30-08-2024_23-37-18.jpg",
-    "title": "photo_23_30-08-2024_23-37-18.jpg"
+    "url": "/assets/logos/photo_23_30-08-2024_23-37-18.webp",
+    "title": "photo_23_30-08-2024_23-37-18.webp"
   },
   {
-    "id": "logos-photo_22_28-08-2024_18-21-31.jpg",
+    "id": "logos-photo_22_28-08-2024_18-21-31.webp",
     "category": "logos",
     "type": "image",
-    "url": "/assets/logos/photo_22_28-08-2024_18-21-31.jpg",
-    "title": "photo_22_28-08-2024_18-21-31.jpg"
+    "url": "/assets/logos/photo_22_28-08-2024_18-21-31.webp",
+    "title": "photo_22_28-08-2024_18-21-31.webp"
   },
   {
-    "id": "logos-photo_21_28-08-2024_18-21-30.jpg",
+    "id": "logos-photo_21_28-08-2024_18-21-30.webp",
     "category": "logos",
     "type": "image",
-    "url": "/assets/logos/photo_21_28-08-2024_18-21-30.jpg",
-    "title": "photo_21_28-08-2024_18-21-30.jpg"
+    "url": "/assets/logos/photo_21_28-08-2024_18-21-30.webp",
+    "title": "photo_21_28-08-2024_18-21-30.webp"
   },
   {
-    "id": "logos-photo_20_28-08-2024_18-21-30.jpg",
+    "id": "logos-photo_20_28-08-2024_18-21-30.webp",
     "category": "logos",
     "type": "image",
-    "url": "/assets/logos/photo_20_28-08-2024_18-21-30.jpg",
-    "title": "photo_20_28-08-2024_18-21-30.jpg"
+    "url": "/assets/logos/photo_20_28-08-2024_18-21-30.webp",
+    "title": "photo_20_28-08-2024_18-21-30.webp"
   },
   {
-    "id": "logos-photo_1_11-09-2023_02-52-08.jpg",
+    "id": "logos-photo_1_11-09-2023_02-52-08.webp",
     "category": "logos",
     "type": "image",
-    "url": "/assets/logos/photo_1_11-09-2023_02-52-08.jpg",
-    "title": "photo_1_11-09-2023_02-52-08.jpg"
+    "url": "/assets/logos/photo_1_11-09-2023_02-52-08.webp",
+    "title": "photo_1_11-09-2023_02-52-08.webp"
   },
   {
-    "id": "logos-photo_19_11-02-2024_15-47-52.jpg",
+    "id": "logos-photo_19_11-02-2024_15-47-52.webp",
     "category": "logos",
     "type": "image",
-    "url": "/assets/logos/photo_19_11-02-2024_15-47-52.jpg",
-    "title": "photo_19_11-02-2024_15-47-52.jpg"
+    "url": "/assets/logos/photo_19_11-02-2024_15-47-52.webp",
+    "title": "photo_19_11-02-2024_15-47-52.webp"
   },
   {
-    "id": "logos-photo_18_11-02-2024_15-47-52.jpg",
+    "id": "logos-photo_18_11-02-2024_15-47-52.webp",
     "category": "logos",
     "type": "image",
-    "url": "/assets/logos/photo_18_11-02-2024_15-47-52.jpg",
-    "title": "photo_18_11-02-2024_15-47-52.jpg"
+    "url": "/assets/logos/photo_18_11-02-2024_15-47-52.webp",
+    "title": "photo_18_11-02-2024_15-47-52.webp"
   },
   {
-    "id": "logos-photo_17_08-02-2024_23-00-16.jpg",
+    "id": "logos-photo_17_08-02-2024_23-00-16.webp",
     "category": "logos",
     "type": "image",
-    "url": "/assets/logos/photo_17_08-02-2024_23-00-16.jpg",
-    "title": "photo_17_08-02-2024_23-00-16.jpg"
+    "url": "/assets/logos/photo_17_08-02-2024_23-00-16.webp",
+    "title": "photo_17_08-02-2024_23-00-16.webp"
   },
   {
-    "id": "logos-photo_16_08-02-2024_23-00-16.jpg",
+    "id": "logos-photo_16_08-02-2024_23-00-16.webp",
     "category": "logos",
     "type": "image",
-    "url": "/assets/logos/photo_16_08-02-2024_23-00-16.jpg",
-    "title": "photo_16_08-02-2024_23-00-16.jpg"
+    "url": "/assets/logos/photo_16_08-02-2024_23-00-16.webp",
+    "title": "photo_16_08-02-2024_23-00-16.webp"
   },
   {
-    "id": "logos-photo_15_08-02-2024_23-00-16.jpg",
+    "id": "logos-photo_15_08-02-2024_23-00-16.webp",
     "category": "logos",
     "type": "image",
-    "url": "/assets/logos/photo_15_08-02-2024_23-00-16.jpg",
-    "title": "photo_15_08-02-2024_23-00-16.jpg"
+    "url": "/assets/logos/photo_15_08-02-2024_23-00-16.webp",
+    "title": "photo_15_08-02-2024_23-00-16.webp"
   },
   {
-    "id": "logos-photo_14_08-02-2024_23-00-16.jpg",
+    "id": "logos-photo_14_08-02-2024_23-00-16.webp",
     "category": "logos",
     "type": "image",
-    "url": "/assets/logos/photo_14_08-02-2024_23-00-16.jpg",
-    "title": "photo_14_08-02-2024_23-00-16.jpg"
+    "url": "/assets/logos/photo_14_08-02-2024_23-00-16.webp",
+    "title": "photo_14_08-02-2024_23-00-16.webp"
   },
   {
-    "id": "logos-photo_13_08-12-2023_17-48-37.jpg",
+    "id": "logos-photo_13_08-12-2023_17-48-37.webp",
     "category": "logos",
     "type": "image",
-    "url": "/assets/logos/photo_13_08-12-2023_17-48-37.jpg",
-    "title": "photo_13_08-12-2023_17-48-37.jpg"
+    "url": "/assets/logos/photo_13_08-12-2023_17-48-37.webp",
+    "title": "photo_13_08-12-2023_17-48-37.webp"
   },
   {
-    "id": "logos-photo_12_08-12-2023_17-48-37.jpg",
+    "id": "logos-photo_12_08-12-2023_17-48-37.webp",
     "category": "logos",
     "type": "image",
-    "url": "/assets/logos/photo_12_08-12-2023_17-48-37.jpg",
-    "title": "photo_12_08-12-2023_17-48-37.jpg"
+    "url": "/assets/logos/photo_12_08-12-2023_17-48-37.webp",
+    "title": "photo_12_08-12-2023_17-48-37.webp"
   },
   {
-    "id": "logos-photo_11_08-12-2023_17-48-37.jpg",
+    "id": "logos-photo_11_08-12-2023_17-48-37.webp",
     "category": "logos",
     "type": "image",
-    "url": "/assets/logos/photo_11_08-12-2023_17-48-37.jpg",
-    "title": "photo_11_08-12-2023_17-48-37.jpg"
+    "url": "/assets/logos/photo_11_08-12-2023_17-48-37.webp",
+    "title": "photo_11_08-12-2023_17-48-37.webp"
   },
   {
-    "id": "logos-photo_10_04-11-2023_00-20-10.jpg",
+    "id": "logos-photo_10_04-11-2023_00-20-10.webp",
     "category": "logos",
     "type": "image",
-    "url": "/assets/logos/photo_10_04-11-2023_00-20-10.jpg",
-    "title": "photo_10_04-11-2023_00-20-10.jpg"
+    "url": "/assets/logos/photo_10_04-11-2023_00-20-10.webp",
+    "title": "photo_10_04-11-2023_00-20-10.webp"
   },
   {
-    "id": "posts-photo_9_05-10-2024_23-24-09.jpg",
+    "id": "posts-photo_9_05-10-2024_23-24-09.webp",
     "category": "posts",
     "type": "image",
-    "url": "/assets/posts/photo_9_05-10-2024_23-24-09.jpg",
-    "title": "photo_9_05-10-2024_23-24-09.jpg"
+    "url": "/assets/posts/photo_9_05-10-2024_23-24-09.webp",
+    "title": "photo_9_05-10-2024_23-24-09.webp"
   },
   {
-    "id": "posts-photo_8_19-09-2024_19-23-07.jpg",
+    "id": "posts-photo_8_19-09-2024_19-23-07.webp",
     "category": "posts",
     "type": "image",
-    "url": "/assets/posts/photo_8_19-09-2024_19-23-07.jpg",
-    "title": "photo_8_19-09-2024_19-23-07.jpg"
+    "url": "/assets/posts/photo_8_19-09-2024_19-23-07.webp",
+    "title": "photo_8_19-09-2024_19-23-07.webp"
   },
   {
-    "id": "posts-photo_7_19-09-2024_19-22-53.jpg",
+    "id": "posts-photo_7_19-09-2024_19-22-53.webp",
     "category": "posts",
     "type": "image",
-    "url": "/assets/posts/photo_7_19-09-2024_19-22-53.jpg",
-    "title": "photo_7_19-09-2024_19-22-53.jpg"
+    "url": "/assets/posts/photo_7_19-09-2024_19-22-53.webp",
+    "title": "photo_7_19-09-2024_19-22-53.webp"
   },
   {
-    "id": "posts-photo_6_19-09-2024_19-22-53.jpg",
+    "id": "posts-photo_6_19-09-2024_19-22-53.webp",
     "category": "posts",
     "type": "image",
-    "url": "/assets/posts/photo_6_19-09-2024_19-22-53.jpg",
-    "title": "photo_6_19-09-2024_19-22-53.jpg"
+    "url": "/assets/posts/photo_6_19-09-2024_19-22-53.webp",
+    "title": "photo_6_19-09-2024_19-22-53.webp"
   },
   {
-    "id": "posts-photo_5_19-09-2024_19-22-53.jpg",
+    "id": "posts-photo_5_19-09-2024_19-22-53.webp",
     "category": "posts",
     "type": "image",
-    "url": "/assets/posts/photo_5_19-09-2024_19-22-53.jpg",
-    "title": "photo_5_19-09-2024_19-22-53.jpg"
+    "url": "/assets/posts/photo_5_19-09-2024_19-22-53.webp",
+    "title": "photo_5_19-09-2024_19-22-53.webp"
   },
   {
-    "id": "posts-photo_4_24-08-2024_16-39-05.jpg",
+    "id": "posts-photo_4_24-08-2024_16-39-05.webp",
     "category": "posts",
     "type": "image",
-    "url": "/assets/posts/photo_4_24-08-2024_16-39-05.jpg",
-    "title": "photo_4_24-08-2024_16-39-05.jpg"
+    "url": "/assets/posts/photo_4_24-08-2024_16-39-05.webp",
+    "title": "photo_4_24-08-2024_16-39-05.webp"
   },
   {
-    "id": "posts-photo_3_28-07-2024_19-59-23.jpg",
+    "id": "posts-photo_3_28-07-2024_19-59-23.webp",
     "category": "posts",
     "type": "image",
-    "url": "/assets/posts/photo_3_28-07-2024_19-59-23.jpg",
-    "title": "photo_3_28-07-2024_19-59-23.jpg"
+    "url": "/assets/posts/photo_3_28-07-2024_19-59-23.webp",
+    "title": "photo_3_28-07-2024_19-59-23.webp"
   },
   {
-    "id": "posts-photo_2_28-07-2024_19-58-18.jpg",
+    "id": "posts-photo_2_28-07-2024_19-58-18.webp",
     "category": "posts",
     "type": "image",
-    "url": "/assets/posts/photo_2_28-07-2024_19-58-18.jpg",
-    "title": "photo_2_28-07-2024_19-58-18.jpg"
+    "url": "/assets/posts/photo_2_28-07-2024_19-58-18.webp",
+    "title": "photo_2_28-07-2024_19-58-18.webp"
   },
   {
-    "id": "posts-photo_1_28-07-2024_19-58-03.jpg",
+    "id": "posts-photo_1_28-07-2024_19-58-03.webp",
     "category": "posts",
     "type": "image",
-    "url": "/assets/posts/photo_1_28-07-2024_19-58-03.jpg",
-    "title": "photo_1_28-07-2024_19-58-03.jpg"
+    "url": "/assets/posts/photo_1_28-07-2024_19-58-03.webp",
+    "title": "photo_1_28-07-2024_19-58-03.webp"
   },
   {
-    "id": "posts-photo_13_04-01-2025_18-05-31.jpg",
+    "id": "posts-photo_13_04-01-2025_18-05-31.webp",
     "category": "posts",
     "type": "image",
-    "url": "/assets/posts/photo_13_04-01-2025_18-05-31.jpg",
-    "title": "photo_13_04-01-2025_18-05-31.jpg"
+    "url": "/assets/posts/photo_13_04-01-2025_18-05-31.webp",
+    "title": "photo_13_04-01-2025_18-05-31.webp"
   },
   {
-    "id": "posts-photo_12_04-01-2025_18-05-16.jpg",
+    "id": "posts-photo_12_04-01-2025_18-05-16.webp",
     "category": "posts",
     "type": "image",
-    "url": "/assets/posts/photo_12_04-01-2025_18-05-16.jpg",
-    "title": "photo_12_04-01-2025_18-05-16.jpg"
+    "url": "/assets/posts/photo_12_04-01-2025_18-05-16.webp",
+    "title": "photo_12_04-01-2025_18-05-16.webp"
   },
   {
-    "id": "posts-photo_11_04-01-2025_18-05-16.jpg",
+    "id": "posts-photo_11_04-01-2025_18-05-16.webp",
     "category": "posts",
     "type": "image",
-    "url": "/assets/posts/photo_11_04-01-2025_18-05-16.jpg",
-    "title": "photo_11_04-01-2025_18-05-16.jpg"
+    "url": "/assets/posts/photo_11_04-01-2025_18-05-16.webp",
+    "title": "photo_11_04-01-2025_18-05-16.webp"
   },
   {
-    "id": "posts-photo_10_04-01-2025_18-05-16.jpg",
+    "id": "posts-photo_10_04-01-2025_18-05-16.webp",
     "category": "posts",
     "type": "image",
-    "url": "/assets/posts/photo_10_04-01-2025_18-05-16.jpg",
-    "title": "photo_10_04-01-2025_18-05-16.jpg"
+    "url": "/assets/posts/photo_10_04-01-2025_18-05-16.webp",
+    "title": "photo_10_04-01-2025_18-05-16.webp"
   },
   {
     "id": "posts-video_9_10-11-2023_09-58-40.mp4",
@@ -548,200 +548,200 @@ export const portfolioAssets: Asset[] = [
     "title": "IMG_0996.MP4"
   },
   {
-    "id": "posts-photo_9_19-08-2024_02-23-26.jpg",
+    "id": "posts-photo_9_19-08-2024_02-23-26.webp",
     "category": "posts",
     "type": "image",
-    "url": "/assets/posts/photo_9_19-08-2024_02-23-26.jpg",
-    "title": "photo_9_19-08-2024_02-23-26.jpg"
+    "url": "/assets/posts/photo_9_19-08-2024_02-23-26.webp",
+    "title": "photo_9_19-08-2024_02-23-26.webp"
   },
   {
-    "id": "posts-photo_8_02-08-2024_17-23-03.jpg",
+    "id": "posts-photo_8_02-08-2024_17-23-03.webp",
     "category": "posts",
     "type": "image",
-    "url": "/assets/posts/photo_8_02-08-2024_17-23-03.jpg",
-    "title": "photo_8_02-08-2024_17-23-03.jpg"
+    "url": "/assets/posts/photo_8_02-08-2024_17-23-03.webp",
+    "title": "photo_8_02-08-2024_17-23-03.webp"
   },
   {
-    "id": "posts-photo_7_02-08-2024_17-23-03.jpg",
+    "id": "posts-photo_7_02-08-2024_17-23-03.webp",
     "category": "posts",
     "type": "image",
-    "url": "/assets/posts/photo_7_02-08-2024_17-23-03.jpg",
-    "title": "photo_7_02-08-2024_17-23-03.jpg"
+    "url": "/assets/posts/photo_7_02-08-2024_17-23-03.webp",
+    "title": "photo_7_02-08-2024_17-23-03.webp"
   },
   {
-    "id": "posts-photo_6_02-08-2024_17-23-03.jpg",
+    "id": "posts-photo_6_02-08-2024_17-23-03.webp",
     "category": "posts",
     "type": "image",
-    "url": "/assets/posts/photo_6_02-08-2024_17-23-03.jpg",
-    "title": "photo_6_02-08-2024_17-23-03.jpg"
+    "url": "/assets/posts/photo_6_02-08-2024_17-23-03.webp",
+    "title": "photo_6_02-08-2024_17-23-03.webp"
   },
   {
-    "id": "posts-photo_5_02-08-2024_17-23-02.jpg",
+    "id": "posts-photo_5_02-08-2024_17-23-02.webp",
     "category": "posts",
     "type": "image",
-    "url": "/assets/posts/photo_5_02-08-2024_17-23-02.jpg",
-    "title": "photo_5_02-08-2024_17-23-02.jpg"
+    "url": "/assets/posts/photo_5_02-08-2024_17-23-02.webp",
+    "title": "photo_5_02-08-2024_17-23-02.webp"
   },
   {
-    "id": "posts-photo_4_02-08-2024_17-23-02.jpg",
+    "id": "posts-photo_4_02-08-2024_17-23-02.webp",
     "category": "posts",
     "type": "image",
-    "url": "/assets/posts/photo_4_02-08-2024_17-23-02.jpg",
-    "title": "photo_4_02-08-2024_17-23-02.jpg"
+    "url": "/assets/posts/photo_4_02-08-2024_17-23-02.webp",
+    "title": "photo_4_02-08-2024_17-23-02.webp"
   },
   {
-    "id": "posts-photo_3_02-08-2024_17-23-02.jpg",
+    "id": "posts-photo_3_02-08-2024_17-23-02.webp",
     "category": "posts",
     "type": "image",
-    "url": "/assets/posts/photo_3_02-08-2024_17-23-02.jpg",
-    "title": "photo_3_02-08-2024_17-23-02.jpg"
+    "url": "/assets/posts/photo_3_02-08-2024_17-23-02.webp",
+    "title": "photo_3_02-08-2024_17-23-02.webp"
   },
   {
-    "id": "posts-photo_2_01-03-2024_02-14-24.jpg",
+    "id": "posts-photo_2_01-03-2024_02-14-24.webp",
     "category": "posts",
     "type": "image",
-    "url": "/assets/posts/photo_2_01-03-2024_02-14-24.jpg",
-    "title": "photo_2_01-03-2024_02-14-24.jpg"
+    "url": "/assets/posts/photo_2_01-03-2024_02-14-24.webp",
+    "title": "photo_2_01-03-2024_02-14-24.webp"
   },
   {
-    "id": "posts-photo_28_15-02-2026_01-15-27.jpg",
+    "id": "posts-photo_28_15-02-2026_01-15-27.webp",
     "category": "posts",
     "type": "image",
-    "url": "/assets/posts/photo_28_15-02-2026_01-15-27.jpg",
-    "title": "photo_28_15-02-2026_01-15-27.jpg"
+    "url": "/assets/posts/photo_28_15-02-2026_01-15-27.webp",
+    "title": "photo_28_15-02-2026_01-15-27.webp"
   },
   {
-    "id": "posts-photo_27_15-02-2026_01-14-49.jpg",
+    "id": "posts-photo_27_15-02-2026_01-14-49.webp",
     "category": "posts",
     "type": "image",
-    "url": "/assets/posts/photo_27_15-02-2026_01-14-49.jpg",
-    "title": "photo_27_15-02-2026_01-14-49.jpg"
+    "url": "/assets/posts/photo_27_15-02-2026_01-14-49.webp",
+    "title": "photo_27_15-02-2026_01-14-49.webp"
   },
   {
-    "id": "posts-photo_26_15-02-2026_01-13-13.jpg",
+    "id": "posts-photo_26_15-02-2026_01-13-13.webp",
     "category": "posts",
     "type": "image",
-    "url": "/assets/posts/photo_26_15-02-2026_01-13-13.jpg",
-    "title": "photo_26_15-02-2026_01-13-13.jpg"
+    "url": "/assets/posts/photo_26_15-02-2026_01-13-13.webp",
+    "title": "photo_26_15-02-2026_01-13-13.webp"
   },
   {
-    "id": "posts-photo_25_15-02-2026_01-12-24.jpg",
+    "id": "posts-photo_25_15-02-2026_01-12-24.webp",
     "category": "posts",
     "type": "image",
-    "url": "/assets/posts/photo_25_15-02-2026_01-12-24.jpg",
-    "title": "photo_25_15-02-2026_01-12-24.jpg"
+    "url": "/assets/posts/photo_25_15-02-2026_01-12-24.webp",
+    "title": "photo_25_15-02-2026_01-12-24.webp"
   },
   {
-    "id": "posts-photo_24_15-02-2026_01-11-15.jpg",
+    "id": "posts-photo_24_15-02-2026_01-11-15.webp",
     "category": "posts",
     "type": "image",
-    "url": "/assets/posts/photo_24_15-02-2026_01-11-15.jpg",
-    "title": "photo_24_15-02-2026_01-11-15.jpg"
+    "url": "/assets/posts/photo_24_15-02-2026_01-11-15.webp",
+    "title": "photo_24_15-02-2026_01-11-15.webp"
   },
   {
-    "id": "posts-photo_23_24-03-2025_23-46-35.jpg",
+    "id": "posts-photo_23_24-03-2025_23-46-35.webp",
     "category": "posts",
     "type": "image",
-    "url": "/assets/posts/photo_23_24-03-2025_23-46-35.jpg",
-    "title": "photo_23_24-03-2025_23-46-35.jpg"
+    "url": "/assets/posts/photo_23_24-03-2025_23-46-35.webp",
+    "title": "photo_23_24-03-2025_23-46-35.webp"
   },
   {
-    "id": "posts-photo_22_24-03-2025_23-46-34.jpg",
+    "id": "posts-photo_22_24-03-2025_23-46-34.webp",
     "category": "posts",
     "type": "image",
-    "url": "/assets/posts/photo_22_24-03-2025_23-46-34.jpg",
-    "title": "photo_22_24-03-2025_23-46-34.jpg"
+    "url": "/assets/posts/photo_22_24-03-2025_23-46-34.webp",
+    "title": "photo_22_24-03-2025_23-46-34.webp"
   },
   {
-    "id": "posts-photo_21_04-01-2025_02-15-13.jpg",
+    "id": "posts-photo_21_04-01-2025_02-15-13.webp",
     "category": "posts",
     "type": "image",
-    "url": "/assets/posts/photo_21_04-01-2025_02-15-13.jpg",
-    "title": "photo_21_04-01-2025_02-15-13.jpg"
+    "url": "/assets/posts/photo_21_04-01-2025_02-15-13.webp",
+    "title": "photo_21_04-01-2025_02-15-13.webp"
   },
   {
-    "id": "posts-photo_20_09-11-2024_19-02-39.jpg",
+    "id": "posts-photo_20_09-11-2024_19-02-39.webp",
     "category": "posts",
     "type": "image",
-    "url": "/assets/posts/photo_20_09-11-2024_19-02-39.jpg",
-    "title": "photo_20_09-11-2024_19-02-39.jpg"
+    "url": "/assets/posts/photo_20_09-11-2024_19-02-39.webp",
+    "title": "photo_20_09-11-2024_19-02-39.webp"
   },
   {
-    "id": "posts-photo_1_17-02-2024_01-06-50.jpg",
+    "id": "posts-photo_1_17-02-2024_01-06-50.webp",
     "category": "posts",
     "type": "image",
-    "url": "/assets/posts/photo_1_17-02-2024_01-06-50.jpg",
-    "title": "photo_1_17-02-2024_01-06-50.jpg"
+    "url": "/assets/posts/photo_1_17-02-2024_01-06-50.webp",
+    "title": "photo_1_17-02-2024_01-06-50.webp"
   },
   {
-    "id": "posts-photo_19_09-11-2024_19-02-39.jpg",
+    "id": "posts-photo_19_09-11-2024_19-02-39.webp",
     "category": "posts",
     "type": "image",
-    "url": "/assets/posts/photo_19_09-11-2024_19-02-39.jpg",
-    "title": "photo_19_09-11-2024_19-02-39.jpg"
+    "url": "/assets/posts/photo_19_09-11-2024_19-02-39.webp",
+    "title": "photo_19_09-11-2024_19-02-39.webp"
   },
   {
-    "id": "posts-photo_18_09-11-2024_19-02-39.jpg",
+    "id": "posts-photo_18_09-11-2024_19-02-39.webp",
     "category": "posts",
     "type": "image",
-    "url": "/assets/posts/photo_18_09-11-2024_19-02-39.jpg",
-    "title": "photo_18_09-11-2024_19-02-39.jpg"
+    "url": "/assets/posts/photo_18_09-11-2024_19-02-39.webp",
+    "title": "photo_18_09-11-2024_19-02-39.webp"
   },
   {
-    "id": "posts-photo_17_09-11-2024_19-02-39.jpg",
+    "id": "posts-photo_17_09-11-2024_19-02-39.webp",
     "category": "posts",
     "type": "image",
-    "url": "/assets/posts/photo_17_09-11-2024_19-02-39.jpg",
-    "title": "photo_17_09-11-2024_19-02-39.jpg"
+    "url": "/assets/posts/photo_17_09-11-2024_19-02-39.webp",
+    "title": "photo_17_09-11-2024_19-02-39.webp"
   },
   {
-    "id": "posts-photo_16_09-11-2024_19-02-39.jpg",
+    "id": "posts-photo_16_09-11-2024_19-02-39.webp",
     "category": "posts",
     "type": "image",
-    "url": "/assets/posts/photo_16_09-11-2024_19-02-39.jpg",
-    "title": "photo_16_09-11-2024_19-02-39.jpg"
+    "url": "/assets/posts/photo_16_09-11-2024_19-02-39.webp",
+    "title": "photo_16_09-11-2024_19-02-39.webp"
   },
   {
-    "id": "posts-photo_15_09-11-2024_19-02-39.jpg",
+    "id": "posts-photo_15_09-11-2024_19-02-39.webp",
     "category": "posts",
     "type": "image",
-    "url": "/assets/posts/photo_15_09-11-2024_19-02-39.jpg",
-    "title": "photo_15_09-11-2024_19-02-39.jpg"
+    "url": "/assets/posts/photo_15_09-11-2024_19-02-39.webp",
+    "title": "photo_15_09-11-2024_19-02-39.webp"
   },
   {
-    "id": "posts-photo_14_09-11-2024_19-02-39.jpg",
+    "id": "posts-photo_14_09-11-2024_19-02-39.webp",
     "category": "posts",
     "type": "image",
-    "url": "/assets/posts/photo_14_09-11-2024_19-02-39.jpg",
-    "title": "photo_14_09-11-2024_19-02-39.jpg"
+    "url": "/assets/posts/photo_14_09-11-2024_19-02-39.webp",
+    "title": "photo_14_09-11-2024_19-02-39.webp"
   },
   {
-    "id": "posts-photo_13_09-11-2024_19-01-30.jpg",
+    "id": "posts-photo_13_09-11-2024_19-01-30.webp",
     "category": "posts",
     "type": "image",
-    "url": "/assets/posts/photo_13_09-11-2024_19-01-30.jpg",
-    "title": "photo_13_09-11-2024_19-01-30.jpg"
+    "url": "/assets/posts/photo_13_09-11-2024_19-01-30.webp",
+    "title": "photo_13_09-11-2024_19-01-30.webp"
   },
   {
-    "id": "posts-photo_12_09-11-2024_19-01-30.jpg",
+    "id": "posts-photo_12_09-11-2024_19-01-30.webp",
     "category": "posts",
     "type": "image",
-    "url": "/assets/posts/photo_12_09-11-2024_19-01-30.jpg",
-    "title": "photo_12_09-11-2024_19-01-30.jpg"
+    "url": "/assets/posts/photo_12_09-11-2024_19-01-30.webp",
+    "title": "photo_12_09-11-2024_19-01-30.webp"
   },
   {
-    "id": "posts-photo_11_09-11-2024_19-01-30.jpg",
+    "id": "posts-photo_11_09-11-2024_19-01-30.webp",
     "category": "posts",
     "type": "image",
-    "url": "/assets/posts/photo_11_09-11-2024_19-01-30.jpg",
-    "title": "photo_11_09-11-2024_19-01-30.jpg"
+    "url": "/assets/posts/photo_11_09-11-2024_19-01-30.webp",
+    "title": "photo_11_09-11-2024_19-01-30.webp"
   },
   {
-    "id": "posts-photo_10_09-11-2024_19-01-30.jpg",
+    "id": "posts-photo_10_09-11-2024_19-01-30.webp",
     "category": "posts",
     "type": "image",
-    "url": "/assets/posts/photo_10_09-11-2024_19-01-30.jpg",
-    "title": "photo_10_09-11-2024_19-01-30.jpg"
+    "url": "/assets/posts/photo_10_09-11-2024_19-01-30.webp",
+    "title": "photo_10_09-11-2024_19-01-30.webp"
   },
   {
     "id": "motion-graphics-WhatsApp Video 2026-07-27 at 9.16.16 AM (2).mp4",
@@ -968,192 +968,192 @@ export const portfolioAssets: Asset[] = [
     "title": "Andrew.gif.mp4"
   },
   {
-    "id": "memecoins-photo_9_21-01-2024_02-27-01.jpg",
+    "id": "memecoins-photo_9_21-01-2024_02-27-01.webp",
     "category": "memecoins",
     "type": "image",
-    "url": "/assets/memecoins/photo_9_21-01-2024_02-27-01.jpg",
-    "title": "photo_9_21-01-2024_02-27-01.jpg"
+    "url": "/assets/memecoins/photo_9_21-01-2024_02-27-01.webp",
+    "title": "photo_9_21-01-2024_02-27-01.webp"
   },
   {
-    "id": "memecoins-photo_8_21-01-2024_02-26-50.jpg",
+    "id": "memecoins-photo_8_21-01-2024_02-26-50.webp",
     "category": "memecoins",
     "type": "image",
-    "url": "/assets/memecoins/photo_8_21-01-2024_02-26-50.jpg",
-    "title": "photo_8_21-01-2024_02-26-50.jpg"
+    "url": "/assets/memecoins/photo_8_21-01-2024_02-26-50.webp",
+    "title": "photo_8_21-01-2024_02-26-50.webp"
   },
   {
-    "id": "memecoins-photo_7_04-10-2023_04-42-15.jpg",
+    "id": "memecoins-photo_7_04-10-2023_04-42-15.webp",
     "category": "memecoins",
     "type": "image",
-    "url": "/assets/memecoins/photo_7_04-10-2023_04-42-15.jpg",
-    "title": "photo_7_04-10-2023_04-42-15.jpg"
+    "url": "/assets/memecoins/photo_7_04-10-2023_04-42-15.webp",
+    "title": "photo_7_04-10-2023_04-42-15.webp"
   },
   {
-    "id": "memecoins-photo_6_11-09-2023_03-25-40.jpg",
+    "id": "memecoins-photo_6_11-09-2023_03-25-40.webp",
     "category": "memecoins",
     "type": "image",
-    "url": "/assets/memecoins/photo_6_11-09-2023_03-25-40.jpg",
-    "title": "photo_6_11-09-2023_03-25-40.jpg"
+    "url": "/assets/memecoins/photo_6_11-09-2023_03-25-40.webp",
+    "title": "photo_6_11-09-2023_03-25-40.webp"
   },
   {
-    "id": "memecoins-photo_5_11-09-2023_03-25-40.jpg",
+    "id": "memecoins-photo_5_11-09-2023_03-25-40.webp",
     "category": "memecoins",
     "type": "image",
-    "url": "/assets/memecoins/photo_5_11-09-2023_03-25-40.jpg",
-    "title": "photo_5_11-09-2023_03-25-40.jpg"
+    "url": "/assets/memecoins/photo_5_11-09-2023_03-25-40.webp",
+    "title": "photo_5_11-09-2023_03-25-40.webp"
   },
   {
-    "id": "memecoins-photo_4_11-09-2023_03-25-40.jpg",
+    "id": "memecoins-photo_4_11-09-2023_03-25-40.webp",
     "category": "memecoins",
     "type": "image",
-    "url": "/assets/memecoins/photo_4_11-09-2023_03-25-40.jpg",
-    "title": "photo_4_11-09-2023_03-25-40.jpg"
+    "url": "/assets/memecoins/photo_4_11-09-2023_03-25-40.webp",
+    "title": "photo_4_11-09-2023_03-25-40.webp"
   },
   {
-    "id": "memecoins-photo_3_11-09-2023_03-25-40.jpg",
+    "id": "memecoins-photo_3_11-09-2023_03-25-40.webp",
     "category": "memecoins",
     "type": "image",
-    "url": "/assets/memecoins/photo_3_11-09-2023_03-25-40.jpg",
-    "title": "photo_3_11-09-2023_03-25-40.jpg"
+    "url": "/assets/memecoins/photo_3_11-09-2023_03-25-40.webp",
+    "title": "photo_3_11-09-2023_03-25-40.webp"
   },
   {
-    "id": "memecoins-photo_2_11-09-2023_03-25-40.jpg",
+    "id": "memecoins-photo_2_11-09-2023_03-25-40.webp",
     "category": "memecoins",
     "type": "image",
-    "url": "/assets/memecoins/photo_2_11-09-2023_03-25-40.jpg",
-    "title": "photo_2_11-09-2023_03-25-40.jpg"
+    "url": "/assets/memecoins/photo_2_11-09-2023_03-25-40.webp",
+    "title": "photo_2_11-09-2023_03-25-40.webp"
   },
   {
-    "id": "memecoins-photo_27_08-03-2026_04-13-00.jpg",
+    "id": "memecoins-photo_27_08-03-2026_04-13-00.webp",
     "category": "memecoins",
     "type": "image",
-    "url": "/assets/memecoins/photo_27_08-03-2026_04-13-00.jpg",
-    "title": "photo_27_08-03-2026_04-13-00.jpg"
+    "url": "/assets/memecoins/photo_27_08-03-2026_04-13-00.webp",
+    "title": "photo_27_08-03-2026_04-13-00.webp"
   },
   {
-    "id": "memecoins-photo_26_15-02-2026_01-07-04.jpg",
+    "id": "memecoins-photo_26_15-02-2026_01-07-04.webp",
     "category": "memecoins",
     "type": "image",
-    "url": "/assets/memecoins/photo_26_15-02-2026_01-07-04.jpg",
-    "title": "photo_26_15-02-2026_01-07-04.jpg"
+    "url": "/assets/memecoins/photo_26_15-02-2026_01-07-04.webp",
+    "title": "photo_26_15-02-2026_01-07-04.webp"
   },
   {
-    "id": "memecoins-photo_25_26-12-2024_11-50-49.jpg",
+    "id": "memecoins-photo_25_26-12-2024_11-50-49.webp",
     "category": "memecoins",
     "type": "image",
-    "url": "/assets/memecoins/photo_25_26-12-2024_11-50-49.jpg",
-    "title": "photo_25_26-12-2024_11-50-49.jpg"
+    "url": "/assets/memecoins/photo_25_26-12-2024_11-50-49.webp",
+    "title": "photo_25_26-12-2024_11-50-49.webp"
   },
   {
-    "id": "memecoins-photo_24_26-12-2024_11-48-01.jpg",
+    "id": "memecoins-photo_24_26-12-2024_11-48-01.webp",
     "category": "memecoins",
     "type": "image",
-    "url": "/assets/memecoins/photo_24_26-12-2024_11-48-01.jpg",
-    "title": "photo_24_26-12-2024_11-48-01.jpg"
+    "url": "/assets/memecoins/photo_24_26-12-2024_11-48-01.webp",
+    "title": "photo_24_26-12-2024_11-48-01.webp"
   },
   {
-    "id": "memecoins-photo_23_14-09-2024_16-26-59.jpg",
+    "id": "memecoins-photo_23_14-09-2024_16-26-59.webp",
     "category": "memecoins",
     "type": "image",
-    "url": "/assets/memecoins/photo_23_14-09-2024_16-26-59.jpg",
-    "title": "photo_23_14-09-2024_16-26-59.jpg"
+    "url": "/assets/memecoins/photo_23_14-09-2024_16-26-59.webp",
+    "title": "photo_23_14-09-2024_16-26-59.webp"
   },
   {
-    "id": "memecoins-photo_22_24-08-2024_16-24-48.jpg",
+    "id": "memecoins-photo_22_24-08-2024_16-24-48.webp",
     "category": "memecoins",
     "type": "image",
-    "url": "/assets/memecoins/photo_22_24-08-2024_16-24-48.jpg",
-    "title": "photo_22_24-08-2024_16-24-48.jpg"
+    "url": "/assets/memecoins/photo_22_24-08-2024_16-24-48.webp",
+    "title": "photo_22_24-08-2024_16-24-48.webp"
   },
   {
-    "id": "memecoins-photo_21_24-08-2024_16-24-48.jpg",
+    "id": "memecoins-photo_21_24-08-2024_16-24-48.webp",
     "category": "memecoins",
     "type": "image",
-    "url": "/assets/memecoins/photo_21_24-08-2024_16-24-48.jpg",
-    "title": "photo_21_24-08-2024_16-24-48.jpg"
+    "url": "/assets/memecoins/photo_21_24-08-2024_16-24-48.webp",
+    "title": "photo_21_24-08-2024_16-24-48.webp"
   },
   {
-    "id": "memecoins-photo_20_13-08-2024_04-32-57.jpg",
+    "id": "memecoins-photo_20_13-08-2024_04-32-57.webp",
     "category": "memecoins",
     "type": "image",
-    "url": "/assets/memecoins/photo_20_13-08-2024_04-32-57.jpg",
-    "title": "photo_20_13-08-2024_04-32-57.jpg"
+    "url": "/assets/memecoins/photo_20_13-08-2024_04-32-57.webp",
+    "title": "photo_20_13-08-2024_04-32-57.webp"
   },
   {
-    "id": "memecoins-photo_1_11-09-2023_03-25-39.jpg",
+    "id": "memecoins-photo_1_11-09-2023_03-25-39.webp",
     "category": "memecoins",
     "type": "image",
-    "url": "/assets/memecoins/photo_1_11-09-2023_03-25-39.jpg",
-    "title": "photo_1_11-09-2023_03-25-39.jpg"
+    "url": "/assets/memecoins/photo_1_11-09-2023_03-25-39.webp",
+    "title": "photo_1_11-09-2023_03-25-39.webp"
   },
   {
-    "id": "memecoins-photo_19_13-08-2024_04-32-10.jpg",
+    "id": "memecoins-photo_19_13-08-2024_04-32-10.webp",
     "category": "memecoins",
     "type": "image",
-    "url": "/assets/memecoins/photo_19_13-08-2024_04-32-10.jpg",
-    "title": "photo_19_13-08-2024_04-32-10.jpg"
+    "url": "/assets/memecoins/photo_19_13-08-2024_04-32-10.webp",
+    "title": "photo_19_13-08-2024_04-32-10.webp"
   },
   {
-    "id": "memecoins-photo_18_22-05-2024_18-41-07.jpg",
+    "id": "memecoins-photo_18_22-05-2024_18-41-07.webp",
     "category": "memecoins",
     "type": "image",
-    "url": "/assets/memecoins/photo_18_22-05-2024_18-41-07.jpg",
-    "title": "photo_18_22-05-2024_18-41-07.jpg"
+    "url": "/assets/memecoins/photo_18_22-05-2024_18-41-07.webp",
+    "title": "photo_18_22-05-2024_18-41-07.webp"
   },
   {
-    "id": "memecoins-photo_17_08-04-2024_00-22-36.jpg",
+    "id": "memecoins-photo_17_08-04-2024_00-22-36.webp",
     "category": "memecoins",
     "type": "image",
-    "url": "/assets/memecoins/photo_17_08-04-2024_00-22-36.jpg",
-    "title": "photo_17_08-04-2024_00-22-36.jpg"
+    "url": "/assets/memecoins/photo_17_08-04-2024_00-22-36.webp",
+    "title": "photo_17_08-04-2024_00-22-36.webp"
   },
   {
-    "id": "memecoins-photo_16_15-03-2024_05-53-08.jpg",
+    "id": "memecoins-photo_16_15-03-2024_05-53-08.webp",
     "category": "memecoins",
     "type": "image",
-    "url": "/assets/memecoins/photo_16_15-03-2024_05-53-08.jpg",
-    "title": "photo_16_15-03-2024_05-53-08.jpg"
+    "url": "/assets/memecoins/photo_16_15-03-2024_05-53-08.webp",
+    "title": "photo_16_15-03-2024_05-53-08.webp"
   },
   {
-    "id": "memecoins-photo_15_13-03-2024_01-44-16.jpg",
+    "id": "memecoins-photo_15_13-03-2024_01-44-16.webp",
     "category": "memecoins",
     "type": "image",
-    "url": "/assets/memecoins/photo_15_13-03-2024_01-44-16.jpg",
-    "title": "photo_15_13-03-2024_01-44-16.jpg"
+    "url": "/assets/memecoins/photo_15_13-03-2024_01-44-16.webp",
+    "title": "photo_15_13-03-2024_01-44-16.webp"
   },
   {
-    "id": "memecoins-photo_14_13-03-2024_01-44-02.jpg",
+    "id": "memecoins-photo_14_13-03-2024_01-44-02.webp",
     "category": "memecoins",
     "type": "image",
-    "url": "/assets/memecoins/photo_14_13-03-2024_01-44-02.jpg",
-    "title": "photo_14_13-03-2024_01-44-02.jpg"
+    "url": "/assets/memecoins/photo_14_13-03-2024_01-44-02.webp",
+    "title": "photo_14_13-03-2024_01-44-02.webp"
   },
   {
-    "id": "memecoins-photo_13_13-03-2024_01-44-02.jpg",
+    "id": "memecoins-photo_13_13-03-2024_01-44-02.webp",
     "category": "memecoins",
     "type": "image",
-    "url": "/assets/memecoins/photo_13_13-03-2024_01-44-02.jpg",
-    "title": "photo_13_13-03-2024_01-44-02.jpg"
+    "url": "/assets/memecoins/photo_13_13-03-2024_01-44-02.webp",
+    "title": "photo_13_13-03-2024_01-44-02.webp"
   },
   {
-    "id": "memecoins-photo_12_13-03-2024_01-43-25.jpg",
+    "id": "memecoins-photo_12_13-03-2024_01-43-25.webp",
     "category": "memecoins",
     "type": "image",
-    "url": "/assets/memecoins/photo_12_13-03-2024_01-43-25.jpg",
-    "title": "photo_12_13-03-2024_01-43-25.jpg"
+    "url": "/assets/memecoins/photo_12_13-03-2024_01-43-25.webp",
+    "title": "photo_12_13-03-2024_01-43-25.webp"
   },
   {
-    "id": "memecoins-photo_11_13-03-2024_01-43-25.jpg",
+    "id": "memecoins-photo_11_13-03-2024_01-43-25.webp",
     "category": "memecoins",
     "type": "image",
-    "url": "/assets/memecoins/photo_11_13-03-2024_01-43-25.jpg",
-    "title": "photo_11_13-03-2024_01-43-25.jpg"
+    "url": "/assets/memecoins/photo_11_13-03-2024_01-43-25.webp",
+    "title": "photo_11_13-03-2024_01-43-25.webp"
   },
   {
-    "id": "memecoins-photo_10_13-03-2024_01-43-25.jpg",
+    "id": "memecoins-photo_10_13-03-2024_01-43-25.webp",
     "category": "memecoins",
     "type": "image",
-    "url": "/assets/memecoins/photo_10_13-03-2024_01-43-25.jpg",
-    "title": "photo_10_13-03-2024_01-43-25.jpg"
+    "url": "/assets/memecoins/photo_10_13-03-2024_01-43-25.webp",
+    "title": "photo_10_13-03-2024_01-43-25.webp"
   }
 ];

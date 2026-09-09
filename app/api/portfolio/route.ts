@@ -22,6 +22,11 @@ export async function GET(req: Request) {
              !url.includes('video_21_') &&
              !url.includes('video_22_') &&
              !url.includes('video_23_');
+    }).map(item => {
+      if (item.url) {
+        item.url = item.url.replace(/\.(png|jpg|jpeg)$/i, '.webp');
+      }
+      return item;
     });
 
     return NextResponse.json(
